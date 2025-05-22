@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Sale - Quality Home Furnishings</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="#bedroom">Bedroom</a></li>
+                    <li><a href="#living-room">Living Room</a></li>
+                    <li><a href="#kitchen">Kitchen & Dining</a></li>
+                    <li><a href="#office">Office</a></li>
+                    <li><a href="#outdoor">Outdoor</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Moving Out Special Deals on Used Furniture</h2>
+                <p>All items located in Redmond (near Clara Barton Elementary School)</p>
+                <p>All items need to go by May 28 - Save up to 60% off retail!</p>
+            </div>
+        </section>
+
+        <section id="bedroom" class="category-section">
+            <div class="container">
+                <h3>Bedroom Furniture</h3>
+                <div class="product-grid">
+                    <div class="product-card" data-product="item1">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item1-1.png" alt="DreamCloud Premier Hybrid King size mattress" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item1', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item1', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item1', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item1', 2)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>DreamCloud Premier Hybrid King Mattress</h4>
+                            <p class="original-price">Originally $1,778</p>
+                            <p class="sale-price">$999</p>
+                            <p class="savings">Save $779!</p>
+                            <div class="button-group">
+                                <a href="https://www.dreamcloudsleep.com/mattress/king?utm_source=google&utm_medium=cpc&utm_campaign=b_19640755162_151354788448_734579982447&utm_content=cpc_brand&rh_s=google&rh_m=cpc&rh_c=b_19640755162_151354788448_734579982447&rh_n=cpc_brand&gad_source=1&gad_campaignid=19640755162&gbraid=0AAAAADEI5j8d4SzFYFlp95tc2ZD3CLimo&gclid=CjwKCAjw87XBBhBIEiwAxP3_A-V1e536lG_P5z1E3jtiZvrSRfIwj-i3RyMIFwLAyyMeqNs4QoDF1BoCwmgQAvD_BwE" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item1')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item2">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item2-1.png" alt="Black wooden nightstands" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item2', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item2', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item2', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item2', 2)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>2x Black Wooden Nightstands</h4>
+                            <p class="description">FUFU&GAGA 2-Drawer Black Wooden Nightstand Bedside Table With 4 Metal Legs</p>
+                            <p class="original-price">Originally $152</p>
+                            <p class="sale-price">$89</p>
+                            <p class="savings">Save $63!</p>
+                            <div class="button-group">
+                                <a href="https://www.homedepot.com/pep/FUFU-GAGA-2-Drawer-Black-Wooden-Nightstand-Bedside-Table-With-4-Metal-Legs-15-7-in-D-x-19-7-in-W-x-17-9-in-H-KF200155-01/318148664" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item2')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item3">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item3-1.png" alt="IKEA MALM wardrobe" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item3', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item3', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item3', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item3', 2)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>IKEA MALM 6-Drawer Chest</h4>
+                            <p class="description">MALM 6-drawer chest - black-brown 31 1/2x48 3/8"</p>
+                            <p class="original-price">Originally $280</p>
+                            <p class="sale-price">$139</p>
+                            <p class="savings">Save $141!</p>
+                            <div class="button-group">
+                                <a href="https://www.remodelista.com/products/malm-6-drawer-chest-black-brown/" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item3')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="living-room" class="category-section">
+            <div class="container">
+                <h3>Living Room</h3>
+                <div class="product-grid">
+                    <div class="product-card featured" data-product="item6">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item6-1.png" alt="LG C1 65 inch OLED TV" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item6', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item6', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item6', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item6', 2)"></span>
+                                    <span class="dot" onclick="currentImage('item6', 3)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>LG C1 65" Class 4K Smart OLED TV</h4>
+                            <p class="description">Premium OLED display with AI ThinQ®</p>
+                            <p class="original-price">Originally $2,299</p>
+                            <p class="sale-price">$599</p>
+                            <p class="savings">Save $1,700!</p>
+                            <div class="button-group">
+                                <a href="https://www.lg.com/us/tvs/lg-oled65c1pub-oled-4k-tv" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item6')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card featured" data-product="item8">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item8-1.png" alt="Kasala sectional sofa" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item8', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item8', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item8', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item8', 2)"></span>
+                                    <span class="dot" onclick="currentImage('item8', 3)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Denny Fabric Power Recline 4-Piece Sectional</h4>
+                            <p class="description">Ash Grey power reclining sectional</p>
+                            <p class="original-price">Originally $2,999</p>
+                            <p class="sale-price">$1,299</p>
+                            <p class="savings">Save $1,700!</p>
+                            <div class="button-group">
+                                <a href="https://www.kasala.com/catalog/product/furniture/denny-fabric-power-recline-4-piece-sectional-ash-grey/" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item8')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card featured" data-product="item11">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item11-1.png" alt="La-Z-Boy sleep sofa" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item11', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item11', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item11', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item11', 2)"></span>
+                                    <span class="dot" onclick="currentImage('item11', 3)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>La-Z-Boy Full Sleep Sofa</h4>
+                            <p class="description">Kennedy full sleep sofa with air mattress</p>
+                            <p class="original-price">Originally $2,499</p>
+                            <p class="sale-price">$1,199</p>
+                            <p class="savings">Save $1,300!</p>
+                            <div class="button-group">
+                                <a href="https://www.la-z-boy.com/p/living-room-sofas-stationary-sofas/kennedy-full-sleep-sofa/" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item11')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item4">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item4-1.png" alt="Sony stereo system" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item4', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item4', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item4', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item4', 2)"></span>
+                                    <span class="dot" onclick="currentImage('item4', 3)"></span>
+                                    <span class="dot" onclick="currentImage('item4', 4)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Sony Stereo Receiver & Audio-Technica Turntable</h4>
+                            <p class="description">STRDH190 2-Ch. Stereo Receiver with AT-LP120XUSB turntable</p>
+                            <p class="original-price">Originally $628</p>
+                            <p class="sale-price">$299</p>
+                            <p class="savings">Save $329!</p>
+                            <div class="button-group">
+                                <a href="https://www.bestbuy.com/site/sony-strdh190-2-ch-stereo-receiver-with-bluetooth-phono-input-for-turntables-black/6187501.p" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item4')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item9">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item9-1.png" alt="White console table" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item9', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item9', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item9', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item9', 2)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>50" White Rectangle Pine Console Table</h4>
+                            <p class="description">Retro and modern design with 3 drawers and 2 open shelves</p>
+                            <p class="original-price">Originally $273</p>
+                            <p class="sale-price">$99</p>
+                            <p class="savings">Save $174!</p>
+                            <div class="button-group">
+                                <a href="https://www.homedepot.com/p/Harper-Bright-Designs-Retro-and-Modern-Design-50-in-White-Rectangle-Pine-Console-Table-with-3-Top-Drawers-and-2-Open-Shelves-WF199598AAK/318332350" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item9')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item10">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item10-1.png" alt="Metal bar cart" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item10', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item10', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item10', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item10', 2)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Metal Bar Cart Silver</h4>
+                            <p class="description">3-tier home bar serving cart with locking caster wheels</p>
+                            <p class="original-price">Originally $290</p>
+                            <p class="sale-price">$149</p>
+                            <p class="savings">Save $141!</p>
+                            <div class="button-group">
+                                <a href="https://www.bedbathandbeyond.com/Home-Garden/Chrome-Bar-Cart-3-tier-Home-Bar-Serving-Cart-with-Locking-Caster-Wheels/36148263/product.html" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item10')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item5">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item5-1.png" alt="TV unit and media shelf" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item5', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item5', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item5', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item5', 2)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>TV Unit and Media Shelf</h4>
+                            <p class="description">Modern TV stand with storage</p>
+                            <p class="original-price">Originally $199</p>
+                            <p class="sale-price">$49</p>
+                            <p class="savings">Save $150!</p>
+                            <div class="button-group">
+                                <button class="btn-secondary" onclick="showMoreInfo('item5')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item7">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item7-1.png" alt="Bookshelf/HiFi media stand" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item7', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item7', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item7', 1)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Bookshelf/HiFi Media Stand</h4>
+                            <p class="description">Versatile storage and media display unit</p>
+                            <p class="original-price">Originally $149</p>
+                            <p class="sale-price">$49</p>
+                            <p class="savings">Save $100!</p>
+                            <div class="button-group">
+                                <button class="btn-secondary" onclick="showMoreInfo('item7')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item12">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item12-1.png" alt="La-Z-Boy Astor recliner" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item12', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item12', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item12', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item12', 2)"></span>
+                                    <span class="dot" onclick="currentImage('item12', 3)"></span>
+                                    <span class="dot" onclick="currentImage('item12', 4)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>La-Z-Boy Astor Platinum Power Lift Recliner</h4>
+                            <p class="description">Power lift recliner with headrest & lumbar support</p>
+                            <p class="original-price">Originally $2,519</p>
+                            <p class="sale-price">$1,199</p>
+                            <p class="savings">Save $1,320!</p>
+                            <div class="button-group">
+                                <a href="https://www.la-z-boy.com/i/living-room-recliners-power-lift-chairs/astor-platinum-power-lift-recliner-w-headrest--lumbar-in-stock/" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item12')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kitchen" class="category-section">
+            <div class="container">
+                <h3>Kitchen & Dining</h3>
+                <div class="product-grid">
+                    <div class="product-card featured" data-product="item19">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item19-1.png" alt="Capri dining set" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item19', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item19', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item19', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item19', 2)"></span>
+                                    <span class="dot" onclick="currentImage('item19', 3)"></span>
+                                    <span class="dot" onclick="currentImage('item19', 4)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Capri 7-Piece Dining Set</h4>
+                            <p class="description">Natural marble table top with wood trestle base and linen side chairs</p>
+                            <p class="original-price">Originally $1,799</p>
+                            <p class="sale-price">$899</p>
+                            <p class="savings">Save $900!</p>
+                            <div class="button-group">
+                                <a href="https://www.homedepot.com/p/Hanover-Capri-7-Piece-Dining-Set-with-Linen-Side-Chairs-Natural-Marble-Table-Top-and-Wood-Trestle-Base-HDR015-7PC-WHT/324041938" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item19')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item20">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item20-1.png" alt="DeLonghi espresso machine" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item20', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item20', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item20', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item20', 2)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>DeLonghi La Specialista Espresso Machine</h4>
+                            <p class="description">Manual espresso maker with professional features</p>
+                            <p class="original-price">Originally $849</p>
+                            <p class="sale-price">$399</p>
+                            <p class="savings">Save $450!</p>
+                            <div class="button-group">
+                                <a href="https://www.delonghi.com/en/ec9355-m-la-specialista-prestigio-manual-espresso-maker/p/EC9355.M" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item20')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="office" class="category-section">
+            <div class="container">
+                <h3>Office Furniture</h3>
+                <div class="product-grid">
+                    <div class="product-card featured" data-product="item22">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item22-1.png" alt="Samsung Odyssey monitor" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item22', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item22', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item22', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item22', 2)"></span>
+                                    <span class="dot" onclick="currentImage('item22', 3)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Samsung 49" Odyssey OLED G9 Gaming Monitor</h4>
+                            <p class="description">Curved smart gaming monitor with QD-OLED, 240Hz, 0.03ms</p>
+                            <p class="original-price">Originally $1,099</p>
+                            <p class="sale-price">$599</p>
+                            <p class="savings">Save $500!</p>
+                            <div class="button-group">
+                                <a href="https://www.amazon.com/dp/B0C48D7Q22" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item22')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item21">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item21-1.png" alt="Racing chair and wheel" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item21', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item21', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item21', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item21', 2)"></span>
+                                    <span class="dot" onclick="currentImage('item21', 3)"></span>
+                                    <span class="dot" onclick="currentImage('item21', 4)"></span>
+                                    <span class="dot" onclick="currentImage('item21', 5)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>PLAYSEAT Trophy + Logitech G923 Racing System</h4>
+                            <p class="description">Complete racing setup with chair and wheel</p>
+                            <p class="original-price">Originally $998</p>
+                            <p class="sale-price">$449</p>
+                            <p class="savings">Save $549!</p>
+                            <div class="button-group">
+                                <a href="https://www.logitechg.com/en-us/products/driving/g923-trueforce-sim-racing-wheel.html" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item21')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item23">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item23-1.png" alt="L-shaped office desk" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item23', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item23', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item23', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item23', 2)"></span>
+                                    <span class="dot" onclick="currentImage('item23', 3)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>67" L-Shaped Executive Desk</h4>
+                            <p class="description">With 55" file cabinet for home office</p>
+                            <p class="original-price">Originally $365</p>
+                            <p class="sale-price">$199</p>
+                            <p class="savings">Save $166!</p>
+                            <div class="button-group">
+                                <a href="https://www.bedbathandbeyond.com/Home-Garden/67-L-Shaped-Executive-Desk-with-55-File-Cabinet-for-Home-Office-Walnut-Black-Grey/37001317/product.html" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item23')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item24">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item24-1.png" alt="Steelcase office chair" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item24', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item24', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item24', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item24', 2)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Steelcase Karman Office Chair</h4>
+                            <p class="description">Ergonomic office chair with premium comfort</p>
+                            <p class="original-price">Originally $969</p>
+                            <p class="sale-price">$599</p>
+                            <p class="savings">Save $370!</p>
+                            <div class="button-group">
+                                <a href="https://store.steelcase.com/steelcase-karman-ready-to-ship" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item24')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="outdoor" class="category-section">
+            <div class="container">
+                <h3>Outdoor & Recreation</h3>
+                <div class="product-grid">
+                    <div class="product-card" data-product="item14">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item14-1.png" alt="EMOVE Cruiser scooter" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item14', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item14', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item14', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item14', 2)"></span>
+                                    <span class="dot" onclick="currentImage('item14', 3)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>EMOVE Cruiser Electric Scooter</h4>
+                            <p class="description">52V 1600W dual suspension long range electric scooter</p>
+                            <p class="original-price">Originally $1,399</p>
+                            <p class="sale-price">$499</p>
+                            <p class="savings">Save $900!</p>
+                            <div class="button-group">
+                                <a href="https://www.voromotors.com/pages/search-results-page?q=emove%20cruiser" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item14')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item18">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item18-1.png" alt="Traeger Pro 575 grill" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item18', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item18', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item18', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item18', 2)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Traeger Pro 575 Pellet Grill</h4>
+                            <p class="description">WiFi enabled pellet grill with brand new grill grates</p>
+                            <p class="original-price">Originally $1,100</p>
+                            <p class="sale-price">$499</p>
+                            <p class="savings">Save $601!</p>
+                            <div class="button-group">
+                                <a href="https://www.amazon.com/dp/B07T2FWL8Q" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item18')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item15">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item15-1.png" alt="Wicker patio furniture" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item15', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item15', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item15', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item15', 2)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Corvus Padova 4-Piece Wicker Patio Set</h4>
+                            <p class="description">Complete outdoor conversation set</p>
+                            <p class="original-price">Originally $686</p>
+                            <p class="sale-price">$349</p>
+                            <p class="savings">Save $337!</p>
+                            <div class="button-group">
+                                <a href="https://www.bedbathandbeyond.com/Home-Garden/Corvus-Padova-4-piece-Wicker-Patio-Chat-Set/21417060/product.html" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item15')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item16">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item16-1.png" alt="Cantilever patio umbrella" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item16', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item16', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item16', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item16', 2)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>11-12 ft. Deluxe Aluminum Patio Umbrella</h4>
+                            <p class="description">Cantilever umbrella with base included</p>
+                            <p class="original-price">Originally $533</p>
+                            <p class="sale-price">$289</p>
+                            <p class="savings">Save $244!</p>
+                            <div class="button-group">
+                                <a href="https://www.bedbathandbeyond.com/Home-Garden/Deluxe-Aluminum-Offset-Umbrella-Patio-Cantilever-Umbrella/36035085/product.html" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item16')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item17">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item17-1.png" alt="Hamilton fire pit table" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item17', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item17', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item17', 1)"></span>
+                                    <span class="dot" onclick="currentImage('item17', 2)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Hamilton 44" Rectangle Fire Pit Table</h4>
+                            <p class="description">Steel and slate natural wood-burning fire pit</p>
+                            <p class="original-price">Originally $340</p>
+                            <p class="sale-price">$179</p>
+                            <p class="savings">Save $161!</p>
+                            <div class="button-group">
+                                <a href="https://www.homedepot.com/p/Real-Flame-Hamilton-44-in-x-13-in-Rectangle-Steel-and-Slate-Natural-Wood-Burning-Fire-Pit-in-Black-and-Brown-with-Slate-Top-946-NST/304052109" target="_blank" class="btn-primary">Product Webpage</a>
+                                <button class="btn-secondary" onclick="showMoreInfo('item17')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-product="item13">
+                        <div class="product-image-container">
+                            <div class="product-image">
+                                <img src="./item13-1.png" alt="Devinci St. Tropez bicycle" class="main-image">
+                                <div class="image-navigation">
+                                    <button class="prev-btn" onclick="changeImage('item13', -1)">‹</button>
+                                    <button class="next-btn" onclick="changeImage('item13', 1)">›</button>
+                                </div>
+                                <div class="image-dots">
+                                    <span class="dot active" onclick="currentImage('item13', 1)"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Devinci St. Tropez XL Bicycle</h4>
+                            <p class="description">Quality mountain bike in excellent condition</p>
+                            <p class="original-price">Originally $700</p>
+                            <p class="sale-price">$299</p>
+                            <p class="savings">Save $401!</p>
+                            <div class="button-group">
+                                <button class="btn-secondary" onclick="showMoreInfo('item13')">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#bedroom">Bedroom</a></li>
+                        <li><a href="#living-room">Living Room</a></li>
+                        <li><a href="#kitchen">Kitchen & Dining</a></li>
+                        <li><a href="#office">Office</a></li>
+                        <li><a href="#outdoor">Outdoor</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for detailed product information -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalBody">
+                <!-- Product details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox for full-size image viewing -->
+    <div id="imageLightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <div class="lightbox-image-container">
+                <img id="lightboxImage" src="" alt="" class="lightbox-image">
+                <div class="lightbox-navigation">
+                    <button class="lightbox-prev" onclick="lightboxPrevImage()">‹</button>
+                    <button class="lightbox-next" onclick="lightboxNextImage()">›</button>
+                </div>
+            </div>
+            <div class="lightbox-counter">
+                <span id="lightboxCounter">1 / 1</span>
+            </div>
+            <div class="lightbox-dots" id="lightboxDots">
+                <!-- Dots will be generated here -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -17,6 +17,7 @@
                     <li><a href="#kitchen">Kitchen & Dining</a></li>
                     <li><a href="#office">Office</a></li>
                     <li><a href="#outdoor">Outdoor</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -722,6 +723,48 @@
                 </div>
             </div>
         </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact" class="category-section">
+            <div class="container">
+                <h3>Contact Me</h3>
+                <div class="contact-form-container">
+                    <!-- To set up email forwarding:
+                         1. Go to https://formspree.io
+                         2. Sign up with tamas.szalay@gmail.com
+                         3. Create a new form
+                         4. Replace YOUR_FORM_ID below with the ID provided by Formspree
+                         5. All submissions will be forwarded to tamas.szalay@gmail.com -->
+                    <form id="contactForm" class="contact-form" action="https://formspree.io/f/mqaqoyja" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number (Optional)</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                        </div>
+                        <div class="form-group">
+                            <label for="item">Item of Interest</label>
+                            <input type="text" id="item" name="item" placeholder="Which item are you interested in?">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+                        </div>
+                        <input type="hidden" name="_subject" value="New inquiry from Moving Sale website">
+                        <input type="hidden" name="_replyto" value="email">
+                        <div class="form-group">
+                            <button type="submit" class="btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -735,6 +778,7 @@
                         <li><a href="#kitchen">Kitchen & Dining</a></li>
                         <li><a href="#office">Office</a></li>
                         <li><a href="#outdoor">Outdoor</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>

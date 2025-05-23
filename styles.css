@@ -1041,6 +1041,10 @@ html {
     cursor: pointer;
 }
 
+.product-image img:hover {
+    filter: brightness(0.95);
+}
+
 /* Hide navigation for single images in lightbox */
 .lightbox-single-image .lightbox-navigation {
     display: none;
@@ -1094,5 +1098,106 @@ html {
     .lightbox-dot {
         width: 10px;
         height: 10px;
+    }
+}
+
+/* Contact Form Styles */
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #2d3748;
+    font-size: 1.1rem;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 1rem;
+    border: 2px solid rgba(226, 232, 240, 0.8);
+    border-radius: 12px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    transform: translateY(-2px);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #a0aec0;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-form .btn-primary {
+    margin-top: 1rem;
+    padding: 1.2rem 2rem;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+/* Form submission states */
+.contact-form.submitting .btn-primary {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.contact-form.submitting .btn-primary::after {
+    content: ' ...';
+    animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+    0%, 20% { content: ' .'; }
+    40% { content: ' ..'; }
+    60% { content: ' ...'; }
+    80%, 100% { content: ' '; }
+}
+
+/* Responsive contact form */
+@media (max-width: 768px) {
+    .contact-form-container {
+        padding: 1.5rem;
+    }
+    
+    .form-group label {
+        font-size: 1rem;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        padding: 0.8rem;
+        font-size: 0.95rem;
     }
 }

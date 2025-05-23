@@ -739,17 +739,27 @@ let currentLightboxIndex = 0;
 
 // Open lightbox
 function openLightbox(productId, imageIndex = 0) {
+    console.log('Opening lightbox for:', productId, 'at index:', imageIndex);
+    
     const lightbox = document.getElementById('imageLightbox');
     const lightboxImage = document.getElementById('lightboxImage');
     const lightboxCounter = document.getElementById('lightboxCounter');
     const lightboxDots = document.getElementById('lightboxDots');
     const lightboxContent = lightbox.querySelector('.lightbox-content');
     
+    if (!lightbox || !lightboxImage) {
+        console.error('Lightbox elements not found');
+        return;
+    }
+    
     currentLightboxProduct = productId;
     currentLightboxIndex = imageIndex;
     
     const images = productImages[productId];
-    if (!images || images.length === 0) return;
+    if (!images || images.length === 0) {
+        console.error('No images found for product:', productId);
+        return;
+    }
     
     // Update image
     lightboxImage.src = images[currentLightboxIndex];
@@ -776,8 +786,12 @@ function openLightbox(productId, imageIndex = 0) {
         lightboxContent.classList.remove('lightbox-single-image');
     }
     
+    // Force display
     lightbox.style.display = 'block';
+    lightbox.style.visibility = 'visible';
     document.body.style.overflow = 'hidden';
+    
+    console.log('Lightbox should now be visible');
 }
 
 // Close lightbox
@@ -892,6 +906,15 @@ function addImageErrorHandlers() {
 
 // Initialize page
 document.addEventListener('DOMContentLoaded', function() {
+    console.log('Page initializing...');
+    
+    // Ensure lightbox is hidden on page load
+    const lightbox = document.getElementById('imageLightbox');
+    if (lightbox) {
+        lightbox.style.display = 'none';
+        console.log('Lightbox hidden on load');
+    }
+    
     // Update all product cards to support image cycling
     updateAllProductCards();
     
@@ -901,10 +924,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add error handlers for images
     addImageErrorHandlers();
     
-    // Ensure all dynamic content is loaded
+    // Setup contact form
+    setupContactForm();
+    
+    // Re-add click handlers after a delay to ensure all images are loaded
     setTimeout(() => {
+        addImageClickHandlers();
         addImageErrorHandlers();
-    }, 1000);
+        console.log('Re-initialized click handlers');
+    }, 500);
 });
 
 // Function to add click handlers to product images
@@ -914,7 +942,12 @@ function addImageClickHandlers() {
         if (productCard) {
             const mainImage = productCard.querySelector('.main-image');
             if (mainImage) {
-                mainImage.addEventListener('click', function() {
+                // Remove any existing listeners first
+                mainImage.style.cursor = 'pointer';
+                mainImage.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    console.log('Image clicked:', productId);
                     const currentIndex = currentImageIndex[productId] || 0;
                     openLightbox(productId, currentIndex);
                 });
@@ -953,5 +986,28 @@ function updateAllProductCards() {
                 if (dotsContainer) dotsContainer.style.display = 'none';
             }
         }
+    });
+}
+
+// Contact form handling
+function setupContactForm() {
+    const form = document.getElementById('contactForm');
+    if (!form) return;
+    
+    form.addEventListener('submit', function() {
+        // Add submitting class for visual feedback
+        form.classList.add('submitting');
+        const submitBtn = form.querySelector('button[type="submit"]');
+        const originalText = submitBtn.textContent;
+        submitBtn.textContent = 'Sending...';
+        submitBtn.disabled = true;
+        
+        // The form will submit normally to Formspree
+        // Add a timeout to reset button state if something goes wrong
+        setTimeout(() => {
+            form.classList.remove('submitting');
+            submitBtn.textContent = originalText;
+            submitBtn.disabled = false;
+        }, 10000); // Reset after 10 seconds
     });
 }

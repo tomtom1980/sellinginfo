@@ -1584,9 +1584,9 @@ html {
 /* Cowboy Hat Styles */
 .cowboy-hat {
     position: absolute;
-    top: -15px;
+    top: -25px;
     left: 50%;
-    transform: translateX(-50%) translateY(-30px) rotate(-15deg);
+    transform: translateX(-50%) translateY(-40px) rotate(-20deg);
     opacity: 0;
     transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     pointer-events: none;
@@ -1594,36 +1594,61 @@ html {
 }
 
 .hat-top {
-    width: 45px;
-    height: 25px;
+    width: 80px;
+    height: 40px;
     background: linear-gradient(135deg, #92400e 0%, #78350f 50%, #451a03 100%);
-    border-radius: 50% 50% 40% 40%;
+    border-radius: 50% 50% 45% 45%;
     position: relative;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 .hat-top::before {
     content: '';
     position: absolute;
-    top: 5px;
+    top: 15px;
     left: 50%;
     transform: translateX(-50%);
-    width: 35px;
-    height: 2px;
+    width: 60px;
+    height: 4px;
     background: #d97706;
     border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.hat-top::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 25px;
+    background: linear-gradient(135deg, #7c2d12 0%, #581c0c 100%);
+    border-radius: 50% 50% 40% 40%;
 }
 
 .hat-brim {
-    width: 70px;
-    height: 8px;
+    width: 120px;
+    height: 15px;
     background: linear-gradient(135deg, #78350f 0%, #451a03 100%);
     border-radius: 50%;
     position: absolute;
-    bottom: -2px;
+    bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.hat-brim::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 110px;
+    height: 12px;
+    background: linear-gradient(135deg, #92400e 0%, #78350f 100%);
+    border-radius: 50%;
 }
 
 /* Robot hover state for hat animation */
@@ -1633,18 +1658,60 @@ html {
     transition-delay: 0.2s;
 }
 
-/* Enhanced arm animation on hover - tip hat gesture */
+/* Enhanced arm animation on hover - tip hat gesture to front */
 .ai-robot:hover .robot-arm.right {
-    animation: tipHat 2s ease-in-out forwards;
+    animation: tipHatToFront 2.5s ease-in-out forwards;
 }
 
-@keyframes tipHat {
-    0% { transform: rotate(5deg); }
-    20% { transform: rotate(-45deg) translateY(-15px); }
-    30% { transform: rotate(-50deg) translateY(-18px); }
-    40% { transform: rotate(-45deg) translateY(-15px); }
-    60% { transform: rotate(-45deg) translateY(-15px); }
-    100% { transform: rotate(5deg); }
+@keyframes tipHatToFront {
+    0% { 
+        transform: rotate(5deg); 
+    }
+    15% { 
+        transform: rotate(-60deg) translateY(-25px) translateX(5px); 
+    }
+    25% { 
+        transform: rotate(-65deg) translateY(-28px) translateX(8px); 
+    }
+    35%, 45% { 
+        transform: rotate(-70deg) translateY(-30px) translateX(10px); 
+    }
+    55% { 
+        transform: rotate(-65deg) translateY(-28px) translateX(8px); 
+    }
+    70% { 
+        transform: rotate(-45deg) translateY(-20px) translateX(5px); 
+    }
+    100% { 
+        transform: rotate(5deg); 
+    }
+}
+
+/* Hat tipping motion */
+.ai-robot:hover .cowboy-hat {
+    animation: hatTip 2.5s ease-in-out forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes hatTip {
+    0% { 
+        transform: translateX(-50%) translateY(0) rotate(0deg); 
+    }
+    15% { 
+        transform: translateX(-50%) translateY(5px) rotate(10deg); 
+    }
+    25%, 45% { 
+        transform: translateX(-30%) translateY(15px) rotate(25deg); 
+    }
+    55% { 
+        transform: translateX(-40%) translateY(10px) rotate(15deg); 
+    }
+    70% { 
+        transform: translateX(-45%) translateY(5px) rotate(5deg); 
+    }
+    100% { 
+        transform: translateX(-50%) translateY(0) rotate(0deg); 
+    }
 }
 
 /* Robot mouth smile on hover */
@@ -1709,16 +1776,32 @@ html {
 /* Responsive cowboy hat */
 @media (max-width: 768px) {
     .cowboy-hat {
-        top: -12px;
+        top: -20px;
     }
     
     .hat-top {
-        width: 38px;
+        width: 65px;
+        height: 32px;
+    }
+    
+    .hat-top::before {
+        width: 50px;
+        height: 3px;
+        top: 12px;
+    }
+    
+    .hat-top::after {
+        width: 40px;
         height: 20px;
     }
     
     .hat-brim {
-        width: 58px;
-        height: 6px;
+        width: 95px;
+        height: 12px;
+    }
+    
+    .hat-brim::before {
+        width: 85px;
+        height: 10px;
     }
 }

@@ -1314,6 +1314,542 @@ const productTranslations = {
             ],
             warranty: "Gwarancja producenta La-Z-Boy"
         }
+    },
+    item13: {
+        hu: {
+            title: "Devinci St. Tropez XL kerékpár",
+            description: "Minőségi mountain bike XL méretben. Tökéletes ösvényekre és szabadidős kerékpározáshoz. Jól karbantartott és használatra kész.",
+            features: [
+                "XL vázméret magasabb kerékpárosoknak",
+                "Mountain bike dizájn",
+                "Minőségi Devinci konstrukció",
+                "Ösvényes kerékpározáshoz alkalmas",
+                "Jól karbantartott állapot",
+                "Sorozatszám: SM042404"
+            ],
+            specifications: [
+                "Márka: Devinci",
+                "Modell: St. Tropez",
+                "Méret: XL",
+                "Típus: Mountain bike",
+                "Állapot: Használt, jól karbantartott",
+                "Sorozatszám: SM042404"
+            ],
+            warranty: "Jelenlegi állapotában eladva"
+        },
+        pl: {
+            title: "Rower Devinci St. Tropez XL",
+            description: "Wysokiej jakości rower górski w rozmiarze XL. Idealny na szlaki i rekreacyjną jazdę. Dobrze utrzymany i gotowy do jazdy.",
+            features: [
+                "Rama XL dla wyższych rowerzystów",
+                "Design roweru górskiego",
+                "Wysokiej jakości konstrukcja Devinci",
+                "Nadaje się do jazdy po szlakach",
+                "Stan dobrze utrzymany",
+                "Numer seryjny: SM042404"
+            ],
+            specifications: [
+                "Marka: Devinci",
+                "Model: St. Tropez",
+                "Rozmiar: XL",
+                "Typ: Rower górski",
+                "Stan: Używany, dobrze utrzymany",
+                "Numer seryjny: SM042404"
+            ],
+            warranty: "Sprzedawany w obecnym stanie"
+        }
+    },
+    item14: {
+        hu: {
+            title: "EMOVE Cruiser elektromos roller",
+            description: "Nagy hatótávolságú elektromos roller kettős felfüggesztéssel és erős 1600W motorral. Tökéletes ingázáshoz és szabadidőhöz.",
+            features: [
+                "52V akkumulátor rendszer",
+                "1600W erős motor",
+                "Kettős felfüggesztési rendszer",
+                "Nagy hatótávolságú képesség",
+                "Kiváló minőségű konstrukció",
+                "Fejlett fékrendszer"
+            ],
+            specifications: [
+                "Motor: 1600W",
+                "Akkumulátor: 52V rendszer",
+                "Felfüggesztés: Kettős első és hátsó",
+                "Hatótáv: Nagy távolságra képes",
+                "Fékek: Fejlett tárcsafék rendszer",
+                "Teherbírás: Felnőtt használatra"
+            ],
+            warranty: "EMOVE gyártói garancia"
+        },
+        pl: {
+            title: "Hulajnoga elektryczna EMOVE Cruiser",
+            description: "Hulajnoga elektryczna dalekiego zasięgu z podwójnym zawieszeniem i mocnym silnikiem 1600W. Idealna do dojazdów i rekreacji.",
+            features: [
+                "System baterii 52V",
+                "Mocny silnik 1600W",
+                "System podwójnego zawieszenia",
+                "Możliwość dalekiego zasięgu",
+                "Wysokiej jakości konstrukcja",
+                "Zaawansowany system hamulcowy"
+            ],
+            specifications: [
+                "Silnik: 1600W",
+                "Bateria: System 52V",
+                "Zawieszenie: Podwójne przód i tył",
+                "Zasięg: Zdolny do dużych odległości",
+                "Hamulce: Zaawansowany system hamulców tarczowych",
+                "Nośność: Dla dorosłego użytkownika"
+            ],
+            warranty: "Gwarancja producenta EMOVE"
+        }
+    },
+    item15: {
+        hu: {
+            title: "Corvus Padova 4 részes fonott kerti bútor szett",
+            description: "Komplett kültéri társalgó szett időjárásálló fonott konstrukcióval. Tökéletes kerti szórakoztatáshoz.",
+            features: [
+                "4 részes társalgó szett",
+                "Időjárásálló fonott anyag",
+                "Kényelmes párnák mellékelve",
+                "UV-álló anyagok",
+                "Könnyű karbantartás",
+                "Klasszikus kerti dizájn"
+            ],
+            specifications: [
+                "Darabok: 4 részes szett",
+                "Anyag: Időjárásálló fonott",
+                "Párnák: Mellékelve",
+                "UV védelem: Igen",
+                "Karbantartás: Alacsony",
+                "Stílus: Hagyományos kerti"
+            ],
+            warranty: "Corvus gyártói garancia"
+        },
+        pl: {
+            title: "Zestaw mebli ogrodowych Corvus Padova 4-częściowy",
+            description: "Kompletny zestaw wypoczynkowy na zewnątrz z odporną na warunki atmosferyczne konstrukcją wiklinową. Idealny do rozrywki w ogrodzie.",
+            features: [
+                "4-częściowy zestaw wypoczynkowy",
+                "Wiklina odporna na warunki atmosferyczne",
+                "Wygodne poduszki w zestawie",
+                "Materiały odporne na UV",
+                "Łatwa konserwacja",
+                "Klasyczny ogrodowy design"
+            ],
+            specifications: [
+                "Części: Zestaw 4-częściowy",
+                "Materiał: Wiklina odporna na pogodę",
+                "Poduszki: W zestawie",
+                "Ochrona UV: Tak",
+                "Konserwacja: Niska",
+                "Styl: Tradycyjny ogrodowy"
+            ],
+            warranty: "Gwarancja producenta Corvus"
+        }
+    },
+    item16: {
+        hu: {
+            title: "11-12 láb Deluxe alumínium kerti napernyő",
+            description: "Nagy konzolos kerti napernyő talppal együtt. Kiváló árnyékot biztosít kültéri terekhez.",
+            features: [
+                "11-12 láb átmérőjű fedési terület",
+                "Konzolos dizájn",
+                "Alumínium konstrukció",
+                "Talp mellékelve",
+                "Időjárásálló szövet",
+                "Könnyű döntési mechanizmus"
+            ],
+            specifications: [
+                "Méret: 11-12 láb átmérő",
+                "Típus: Konzolos",
+                "Anyag: Alumínium keret",
+                "Talp: Mellékelve",
+                "Szövet: Időjárásálló",
+                "Működés: Könnyű döntés és forgatás"
+            ],
+            warranty: "Gyártói garancia"
+        },
+        pl: {
+            title: "11-12 stóp Deluxe aluminiowy parasol ogrodowy",
+            description: "Duży parasol ogrodowy typu cantilever z bazą w zestawie. Zapewnia doskonały cień dla przestrzeni zewnętrznych.",
+            features: [
+                "11-12 stóp obszar pokrycia",
+                "Design typu cantilever",
+                "Konstrukcja aluminiowa",
+                "Baza w zestawie",
+                "Tkanina odporna na warunki atmosferyczne",
+                "Łatwy mechanizm przechylania"
+            ],
+            specifications: [
+                "Rozmiar: 11-12 stóp średnicy",
+                "Typ: Cantilever",
+                "Materiał: Rama aluminiowa",
+                "Baza: W zestawie",
+                "Tkanina: Odporna na pogodę",
+                "Obsługa: Łatwe przechylanie i obracanie"
+            ],
+            warranty: "Gwarancja producenta"
+        }
+    },
+    item17: {
+        hu: {
+            title: "Hamilton 44\" téglalap alakú tűzrakó asztal",
+            description: "Természetes fatüzelésű tűzrakó pala tetővel. Tökéletes kültéri összejövetelekhez és egész éves élvezethez.",
+            features: [
+                "44 hüvelykes téglalap alakú dizájn",
+                "Természetes fatüzelés",
+                "Pala felső felület",
+                "Acél konstrukció",
+                "Időjárásálló felület",
+                "Szikrafogó mellékelve"
+            ],
+            specifications: [
+                "Méretek: 44\" x 13\" téglalap",
+                "Tüzelőanyag: Természetes fa",
+                "Anyag: Acél és pala",
+                "Felület: Fekete és barna",
+                "Biztonság: Szikrafogó mellékelve",
+                "Márka: Real Flame"
+            ],
+            warranty: "Real Flame gyártói garancia"
+        },
+        pl: {
+            title: "Hamilton 44\" prostokątny stół z paleniskiem",
+            description: "Palenisko na naturalne drewno z blatem łupkowym. Idealne na spotkania na świeżym powietrzu i całoroczną przyjemność.",
+            features: [
+                "44-calowy prostokątny design",
+                "Opalanie naturalnym drewnem",
+                "Łupkowa powierzchnia górna",
+                "Konstrukcja stalowa",
+                "Wykończenie odporne na warunki atmosferyczne",
+                "Osłona przeciwiskrowa w zestawie"
+            ],
+            specifications: [
+                "Wymiary: 44\" x 13\" prostokąt",
+                "Paliwo: Naturalne drewno",
+                "Materiał: Stal i łupek",
+                "Wykończenie: Czarne i brązowe",
+                "Bezpieczeństwo: Osłona przeciwiskrowa w zestawie",
+                "Marka: Real Flame"
+            ],
+            warranty: "Gwarancja producenta Real Flame"
+        }
+    },
+    item18: {
+        hu: {
+            title: "Traeger Pro 575 pellet grill",
+            description: "WiFi-képes pellet grill vadonatúj grillrácsokkal. Tökéletes füstöléshez, grillezéshez és BBQ főzéshez.",
+            features: [
+                "WiFi kapcsolat távoli vezérléshez",
+                "Vadonatúj grillrácsok mellékelve",
+                "Pellet tüzelőanyag rendszer",
+                "Pontos hőmérséklet szabályozás",
+                "Nagy főzési felület",
+                "Sokoldalú főzési módszerek"
+            ],
+            specifications: [
+                "Modell: Pro 575",
+                "Tüzelőanyag: Fa pellet",
+                "Kapcsolat: WiFi képes",
+                "Rácsok: Vadonatúj mellékelve",
+                "Hőmérséklet: Pontos digitális vezérlés",
+                "Főzési terület: Nagy kapacitás"
+            ],
+            warranty: "Traeger gyártói garancia"
+        },
+        pl: {
+            title: "Grill pelletowy Traeger Pro 575",
+            description: "Grill pelletowy z WiFi i zupełnie nowymi rusztami. Idealny do wędzenia, grillowania i gotowania BBQ.",
+            features: [
+                "Łączność WiFi do zdalnego sterowania",
+                "Zupełnie nowe ruszty w zestawie",
+                "System paliwowy na pellety",
+                "Precyzyjna kontrola temperatury",
+                "Duża powierzchnia gotowania",
+                "Wszechstronne metody gotowania"
+            ],
+            specifications: [
+                "Model: Pro 575",
+                "Paliwo: Pellety drzewne",
+                "Łączność: Z obsługą WiFi",
+                "Ruszty: Zupełnie nowe w zestawie",
+                "Temperatura: Precyzyjna kontrola cyfrowa",
+                "Obszar gotowania: Duża pojemność"
+            ],
+            warranty: "Gwarancja producenta Traeger"
+        }
+    },
+    item19: {
+        hu: {
+            title: "Capri 7 részes étkező garnitúra",
+            description: "Elegáns étkező garnitúra természetes márvány asztallal és fa bakláb alappal. 6 vászon oldalsó széket tartalmaz a teljes étkezési megoldáshoz.",
+            features: [
+                "7 részes komplett étkező garnitúra",
+                "Természetes márvány asztallap",
+                "Fa bakláb alap dizájn",
+                "6 vászon kárpitozott oldalsó szék",
+                "Klasszikus hagyományos stílus",
+                "Kényelmesen elfér 6 személy"
+            ],
+            specifications: [
+                "Darabok: Asztal + 6 szék",
+                "Asztallap: Természetes márvány",
+                "Alap: Fa bakláb dizájn",
+                "Székek: Vászon kárpitozás",
+                "Ülőhelyek: 6 személy",
+                "Stílus: Hagyományos/Klasszikus"
+            ],
+            warranty: "Hanover gyártói garancia"
+        },
+        pl: {
+            title: "Zestaw jadalny Capri 7-częściowy",
+            description: "Elegancki zestaw jadalny z naturalnym marmurowym blatem i drewnianą podstawą kozłową. Zawiera 6 lnianych krzeseł bocznych dla kompletnego rozwiązania jadalnianego.",
+            features: [
+                "7-częściowy kompletny zestaw jadalny",
+                "Naturalny marmurowy blat stołu",
+                "Drewniana podstawa kozłowa",
+                "6 lnianych tapicerowanych krzeseł bocznych",
+                "Klasyczny tradycyjny styl",
+                "Wygodnie mieści do 6 osób"
+            ],
+            specifications: [
+                "Części: Stół + 6 krzeseł",
+                "Blat stołu: Naturalny marmur",
+                "Podstawa: Drewniana konstrukcja kozłowa",
+                "Krzesła: Tapicerka lniana",
+                "Miejsca siedzące: 6 osób",
+                "Styl: Tradycyjny/Klasyczny"
+            ],
+            warranty: "Gwarancja producenta Hanover"
+        }
+    },
+    item20: {
+        hu: {
+            title: "DeLonghi La Specialista eszpresszó gép",
+            description: "Professzionális kézi eszpresszó készítő fejlett funkciókkal kávé rajongóknak. Készítsen kávézó minőségű eszpresszót otthon.",
+            features: [
+                "Kézi eszpresszó működés",
+                "Beépített őrlő",
+                "Tej habosító rendszer",
+                "Professzionális portafilter",
+                "Rozsdamentes acél konstrukció",
+                "Fejlett főzési vezérlők"
+            ],
+            specifications: [
+                "Típus: Kézi eszpresszó gép",
+                "Őrlő: Beépített zúzóőrlő",
+                "Tej rendszer: Gőzölő pálca",
+                "Anyag: Rozsdamentes acél",
+                "Vezérlők: Kézi működés",
+                "Márka: DeLonghi"
+            ],
+            warranty: "DeLonghi gyártói garancia"
+        },
+        pl: {
+            title: "Ekspres do espresso DeLonghi La Specialista",
+            description: "Profesjonalny ręczny ekspres do espresso z zaawansowanymi funkcjami dla miłośników kawy. Twórz espresso o jakości kawiarnianej w domu.",
+            features: [
+                "Ręczna obsługa espresso",
+                "Wbudowany młynek",
+                "System spieniania mleka",
+                "Profesjonalny portafilter",
+                "Konstrukcja ze stali nierdzewnej",
+                "Zaawansowane sterowanie parzeniem"
+            ],
+            specifications: [
+                "Typ: Ręczny ekspres do espresso",
+                "Młynek: Wbudowany młynek żarnowy",
+                "System mleczny: Dysza parowa",
+                "Materiał: Stal nierdzewna",
+                "Sterowanie: Obsługa ręczna",
+                "Marka: DeLonghi"
+            ],
+            warranty: "Gwarancja producenta DeLonghi"
+        }
+    },
+    item21: {
+        hu: {
+            title: "PLAYSEAT Trophy + Logitech G923 verseny rendszer",
+            description: "Komplett verseny beállítás PLAYSEAT Trophy székkel és Logitech G923 verseny kormány rendszerrel. Professzionális játék élmény.",
+            features: [
+                "PLAYSEAT Trophy verseny szék",
+                "Logitech G923 verseny kormány",
+                "TrueForce visszajelzés technológia",
+                "Kompatibilis PC-vel és konzolokkal",
+                "Állítható ülési pozíció",
+                "Professzionális verseny élmény"
+            ],
+            specifications: [
+                "Szék: PLAYSEAT Trophy Logitech G Edition",
+                "Kormány: Logitech G923 TrueForce",
+                "Kompatibilitás: PC, PlayStation, Xbox",
+                "Visszajelzés: Fejlett erő visszajelzés",
+                "Állíthatóság: Több pozíció",
+                "Beállítás: Komplett verseny megoldás"
+            ],
+            warranty: "Logitech és PLAYSEAT garanciák"
+        },
+        pl: {
+            title: "PLAYSEAT Trophy + system wyścigowy Logitech G923",
+            description: "Kompletna konfiguracja wyścigowa z fotelem PLAYSEAT Trophy i systemem kierownicy wyścigowej Logitech G923. Profesjonalne wrażenia z gry.",
+            features: [
+                "Fotel wyścigowy PLAYSEAT Trophy",
+                "Kierownica wyścigowa Logitech G923",
+                "Technologia sprzężenia zwrotnego TrueForce",
+                "Kompatybilny z PC i konsolami",
+                "Regulowana pozycja siedzenia",
+                "Profesjonalne wrażenia wyścigowe"
+            ],
+            specifications: [
+                "Fotel: PLAYSEAT Trophy Logitech G Edition",
+                "Kierownica: Logitech G923 TrueForce",
+                "Kompatybilność: PC, PlayStation, Xbox",
+                "Sprzężenie zwrotne: Zaawansowane sprzężenie siłowe",
+                "Regulacja: Wiele pozycji",
+                "Konfiguracja: Kompletne rozwiązanie wyścigowe"
+            ],
+            warranty: "Gwarancje Logitech i PLAYSEAT"
+        }
+    },
+    item22: {
+        hu: {
+            title: "Samsung 49\" Odyssey OLED G9 (G95SC) görbült gaming monitor",
+            description: "A világ első 32:9 képarányú OLED gaming monitor QD-OLED technológiával, 240Hz frissítési gyakorisággal és okos funkciókkal.",
+            features: [
+                "49 hüvelykes QD-OLED kijelző technológia",
+                "5120x1440 felbontás (Dual QHD)",
+                "240Hz frissítési gyakoriság 0.03ms válaszidővel",
+                "32:9 szuper széles képarány",
+                "1800R görbület magával ragadó játékhoz",
+                "HDR támogatás kivételes kontraszttal",
+                "Samsung Tizen okos platform beépítve",
+                "RGB világítás a hátsó tartón"
+            ],
+            specifications: [
+                "Képernyő méret: 49 hüvelyk",
+                "Felbontás: 5120 x 1440 (Dual QHD)",
+                "Képarány: 32:9",
+                "Frissítési gyakoriság: 240Hz",
+                "Válaszidő: 0.03ms GTG",
+                "Görbület: 1800R",
+                "Színtartomány: 98% DCI-P3",
+                "Csatlakozás: DisplayPort 1.4, HDMI 2.1"
+            ],
+            warranty: "Samsung gyártói garancia"
+        },
+        pl: {
+            title: "Samsung 49\" Odyssey OLED G9 (G95SC) zakrzywiony monitor gamingowy",
+            description: "Pierwszy na świecie monitor gamingowy OLED o proporcjach 32:9 z technologią QD-OLED, częstotliwością odświeżania 240Hz i funkcjami smart.",
+            features: [
+                "49-calowa technologia wyświetlacza QD-OLED",
+                "Rozdzielczość 5120x1440 (Dual QHD)",
+                "Częstotliwość odświeżania 240Hz z czasem reakcji 0.03ms",
+                "Superszeroki format obrazu 32:9",
+                "Krzywizna 1800R dla wciągającej rozgrywki",
+                "Obsługa HDR z wyjątkowym kontrastem",
+                "Wbudowana platforma Samsung Tizen smart",
+                "Oświetlenie RGB na tylnym mocowaniu"
+            ],
+            specifications: [
+                "Rozmiar ekranu: 49 cali",
+                "Rozdzielczość: 5120 x 1440 (Dual QHD)",
+                "Format obrazu: 32:9",
+                "Częstotliwość odświeżania: 240Hz",
+                "Czas reakcji: 0.03ms GTG",
+                "Krzywizna: 1800R",
+                "Gama kolorów: 98% DCI-P3",
+                "Łączność: DisplayPort 1.4, HDMI 2.1"
+            ],
+            warranty: "Gwarancja producenta Samsung"
+        }
+    },
+    item23: {
+        hu: {
+            title: "67\" L-alakú vezetői íróasztal iratszekrénnyel",
+            description: "Nagy L-alakú irodai íróasztal integrált iratszekrénnyel. Tökéletes otthoni irodai berendezéshez bőséges munkaterülettel.",
+            features: [
+                "67 hüvelykes L-alakú dizájn",
+                "Integrált 55 hüvelykes iratszekrény",
+                "Vezetői stílusú felület",
+                "Több tárolórekesz",
+                "Nagy munkafelület",
+                "Modern irodai dizájn"
+            ],
+            specifications: [
+                "Forma: L-alakú konfiguráció",
+                "Méret: 67 hüvelykes fő felület",
+                "Tárolás: 55 hüvelykes iratszekrény",
+                "Stílus: Vezetői iroda",
+                "Anyag: Irodai minőségű anyagok",
+                "Szín: Több felületben elérhető"
+            ],
+            warranty: "Gyártói garancia"
+        },
+        pl: {
+            title: "67\" biurko wykonawcze w kształcie L z szafką na dokumenty",
+            description: "Duże biurko biurowe w kształcie L ze zintegrowaną szafką na dokumenty. Idealne do domowego biura z dużą przestrzenią roboczą.",
+            features: [
+                "67-calowy design w kształcie L",
+                "Zintegrowana 55-calowa szafka na dokumenty",
+                "Wykończenie w stylu wykonawczym",
+                "Wiele przegródek do przechowywania",
+                "Duża powierzchnia robocza",
+                "Nowoczesny design biurowy"
+            ],
+            specifications: [
+                "Kształt: Konfiguracja w kształcie L",
+                "Rozmiar: 67-calowa główna powierzchnia",
+                "Przechowywanie: 55-calowa szafka na dokumenty",
+                "Styl: Biuro wykonawcze",
+                "Materiał: Materiały klasy biurowej",
+                "Kolor: Dostępny w wielu wykończeniach"
+            ],
+            warranty: "Gwarancja producenta"
+        }
+    },
+    item24: {
+        hu: {
+            title: "Steelcase Karman irodai szék",
+            description: "Prémium ergonomikus irodai szék fejlett kényelmi funkciókkal. Professzionális dizájn egész napos kényelemhez és támogatáshoz.",
+            features: [
+                "Ergonomikus dizájn egész napos kényelemhez",
+                "Fejlett deréktámasz",
+                "Légáteresztő háló háttámla",
+                "Állítható karfák",
+                "Professzionális irodai stílus",
+                "Kiváló minőségű konstrukció"
+            ],
+            specifications: [
+                "Márka: Steelcase",
+                "Modell: Karman",
+                "Háttámla: Háló dizájn",
+                "Támogatás: Derék és ergonomikus",
+                "Állíthatóság: Több pozíció",
+                "Használat: Professzionális iroda"
+            ],
+            warranty: "Steelcase gyártói garancia"
+        },
+        pl: {
+            title: "Krzesło biurowe Steelcase Karman",
+            description: "Premium ergonomiczne krzesło biurowe z zaawansowanymi funkcjami komfortu. Profesjonalny design dla całodziennego komfortu i wsparcia.",
+            features: [
+                "Ergonomiczny design dla całodziennego komfortu",
+                "Zaawansowane wsparcie lędźwiowe",
+                "Oddychające siatkowe oparcie",
+                "Regulowane podłokietniki",
+                "Profesjonalny styl biurowy",
+                "Wysokiej jakości konstrukcja"
+            ],
+            specifications: [
+                "Marka: Steelcase",
+                "Model: Karman",
+                "Oparcie: Design siatkowy",
+                "Wsparcie: Lędźwiowe i ergonomiczne",
+                "Regulacja: Wiele pozycji",
+                "Użytkowanie: Profesjonalne biuro"
+            ],
+            warranty: "Gwarancja producenta Steelcase"
+        }
     }
 };
 

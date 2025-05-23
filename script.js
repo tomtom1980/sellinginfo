@@ -80,6 +80,37 @@ function updateImage(productId) {
     });
 }
 
+// Current language state
+let currentLanguage = 'en';
+
+// Translation labels
+const translations = {
+    en: {
+        keyFeatures: "Key Features",
+        specifications: "Specifications",
+        warranty: "Warranty",
+        viewFullDetails: "View Full Details",
+        close: "Close",
+        save: "Save"
+    },
+    hu: {
+        keyFeatures: "Főbb jellemzők",
+        specifications: "Műszaki adatok",
+        warranty: "Garancia",
+        viewFullDetails: "Teljes részletek megtekintése",
+        close: "Bezárás",
+        save: "Megtakarítás"
+    },
+    pl: {
+        keyFeatures: "Główne cechy",
+        specifications: "Specyfikacje",
+        warranty: "Gwarancja",
+        viewFullDetails: "Zobacz pełne szczegóły",
+        close: "Zamknij",
+        save: "Oszczędność"
+    }
+};
+
 // Product detailed information
 const productDetails = {
     item1: {
@@ -678,44 +709,195 @@ function showMoreInfo(productId) {
     if (!product) {
         modalBody.innerHTML = '<p>Product details not available.</p>';
     } else {
-        modalBody.innerHTML = `
-            <div class="modal-product-info">
-                <h2>${product.title}</h2>
-                <div class="modal-pricing">
-                    <span class="modal-sale-price">${product.price}</span>
-                    <span class="modal-original-price">Originally ${product.originalPrice}</span>
-                </div>
-                <p class="modal-description">${product.description}</p>
-                
-                <div class="modal-section">
-                    <h3>Key Features</h3>
-                    <ul class="features-list">
-                        ${product.features.map(feature => `<li>${feature}</li>`).join('')}
-                    </ul>
-                </div>
-                
-                <div class="modal-section">
-                    <h3>Specifications</h3>
-                    <ul class="specs-list">
-                        ${product.specifications.map(spec => `<li>${spec}</li>`).join('')}
-                    </ul>
-                </div>
-                
-                <div class="modal-section">
-                    <h3>Warranty</h3>
-                    <p>${product.warranty}</p>
-                </div>
-                
-                <div class="modal-actions">
-                    <a href="${product.link}" target="_blank" class="btn-primary">View Full Details</a>
-                    <button class="btn-secondary" onclick="closeModal()">Close</button>
-                </div>
-            </div>
-        `;
+        // Store current product ID for translation updates
+        modal.dataset.currentProduct = productId;
+        updateModalContent(productId);
     }
     
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden';
+}
+
+// Update modal content based on current language
+function updateModalContent(productId) {
+    const modalBody = document.getElementById('modalBody');
+    const product = productDetails[productId];
+    const trans = translations[currentLanguage];
+    
+    // Get translated content for the product
+    const translatedProduct = getTranslatedProduct(productId);
+    
+    modalBody.innerHTML = `
+        <div class="modal-product-info">
+            <div class="language-selector">
+                <button class="lang-btn ${currentLanguage === 'en' ? 'active' : ''}" onclick="changeLanguage('en', '${productId}')">English</button>
+                <button class="lang-btn ${currentLanguage === 'hu' ? 'active' : ''}" onclick="changeLanguage('hu', '${productId}')">Magyar</button>
+                <button class="lang-btn ${currentLanguage === 'pl' ? 'active' : ''}" onclick="changeLanguage('pl', '${productId}')">Polski</button>
+            </div>
+            
+            <h2>${translatedProduct.title}</h2>
+            <div class="modal-pricing">
+                <span class="modal-sale-price">${product.price}</span>
+                <span class="modal-original-price">${currentLanguage === 'en' ? 'Originally' : currentLanguage === 'hu' ? 'Eredetileg' : 'Pierwotnie'} ${product.originalPrice}</span>
+            </div>
+            <p class="modal-description">${translatedProduct.description}</p>
+            
+            <div class="modal-section">
+                <h3>${trans.keyFeatures}</h3>
+                <ul class="features-list">
+                    ${translatedProduct.features.map(feature => `<li>${feature}</li>`).join('')}
+                </ul>
+            </div>
+            
+            <div class="modal-section">
+                <h3>${trans.specifications}</h3>
+                <ul class="specs-list">
+                    ${translatedProduct.specifications.map(spec => `<li>${spec}</li>`).join('')}
+                </ul>
+            </div>
+            
+            <div class="modal-section">
+                <h3>${trans.warranty}</h3>
+                <p>${translatedProduct.warranty}</p>
+            </div>
+            
+            <div class="modal-actions">
+                <a href="${product.link}" target="_blank" class="btn-primary">${trans.viewFullDetails}</a>
+                <button class="btn-secondary" onclick="closeModal()">${trans.close}</button>
+            </div>
+        </div>
+    `;
+}
+
+// Change language function
+function changeLanguage(lang, productId) {
+    currentLanguage = lang;
+    updateModalContent(productId);
+}
+
+// Product translations
+const productTranslations = {
+    item1: {
+        hu: {
+            title: "DreamCloud Premier Hybrid King matrac + ágykeret",
+            description: "Komplett hálószoba garnitúra, DreamCloud Premier Hybrid King matrac és kárpitozott fejvéges ágykeret. A prémium hibrid kombinálja a memóriahabos kényelmet a fejlett belső rugós támogatással.",
+            features: [
+                "13 hüvelykes teljes magasság 6 rétegű szerkezettel",
+                "CloudQuilt™ euro top borítás hűtő szálakkal",
+                "Gél infúziós memóriahab nyomáscsökkentéshez",
+                "8 hüvelykes zsebezett rugós rendszer megerősített peremmel",
+                "Kárpitozott fejvéges ágykeret mellékelve",
+                "Közepesen kemény tapintás (6/10 keménységi skála)",
+                "100% üvegszál-mentes konstrukció"
+            ],
+            specifications: [
+                "Méret: King (76\" x 80\")",
+                "Magasság: 13 hüvelyk",
+                "Keménység: Közepesen kemény (6/10)",
+                "Anyagok: Hibrid (memóriahab + belső rugó)",
+                "Ágykeret: Kárpitozott fejvégű",
+                "Mozgás szigetelés: Kiváló"
+            ],
+            warranty: "365 éjszakás otthoni próba és örökös garancia™"
+        },
+        pl: {
+            title: "DreamCloud Premier Hybrid King materac + rama łóżka",
+            description: "Kompletny zestaw sypialni zawierający materac DreamCloud Premier Hybrid King i tapicerowaną ramę łóżka z zagłówkiem. Premium hybrid łączy komfort pianki pamięciowej z zaawansowanym wsparciem sprężyn wewnętrznych.",
+            features: [
+                "13-calowa całkowita wysokość z 6-warstwową konstrukcją",
+                "Pokrycie CloudQuilt™ euro top z włóknami chłodzącymi",
+                "Pianka pamięciowa z żelem dla ulgi w punktach nacisku",
+                "8-calowy system sprężyn kieszeniowych ze wzmocnionym obwodem",
+                "Tapicerowana rama łóżka z zagłówkiem w zestawie",
+                "Średnio twarde uczucie (6/10 w skali twardości)",
+                "100% konstrukcja wolna od włókna szklanego"
+            ],
+            specifications: [
+                "Rozmiar: King (76\" x 80\")",
+                "Wysokość: 13 cali",
+                "Twardość: Średnio twardy (6/10)",
+                "Materiały: Hybrydowy (pianka pamięciowa + sprężyny wewnętrzne)",
+                "Rama łóżka: Tapicerowane zagłówek",
+                "Izolacja ruchu: Doskonała"
+            ],
+            warranty: "365-nocna próba domowa i wieczna gwarancja™"
+        }
+    },
+    item6: {
+        hu: {
+            title: "LG C1 65\" Class 4K Smart OLED TV AI ThinQ®-val",
+            description: "Prémium 65 hüvelykes OLED TV lenyűgöző képminőséggel, tökéletes feketékkel és okos funkciókkal. Ideális játékhoz és szórakoztatáshoz.",
+            features: [
+                "Önvilágító OLED pixelek a tökéletes feketékért",
+                "α9 Gen4 AI processzor 4K",
+                "Dolby Vision IQ és Dolby Atmos",
+                "HDMI 2.1 mind a 4 porton (4K@120Hz)",
+                "VRR, G-SYNC kompatibilitás, 1ms válaszidő",
+                "webOS okos platform ThinQ AI-val",
+                "Beépített Google Assistant és Alexa",
+                "FILMMAKER MODE™ támogatás"
+            ],
+            specifications: [
+                "Képernyő mérete: 64,5 hüvelyk átló",
+                "Felbontás: 3840 x 2160 (4K UHD)",
+                "Kijelző típusa: OLED",
+                "Frissítési gyakoriság: 40Hz - 120Hz",
+                "Látószög: 178° vízszintes/függőleges",
+                "Játék funkciók: 1ms válaszidő, VRR",
+                "Csatlakozás: 4x HDMI 2.1, Ethernet, Wi-Fi"
+            ],
+            warranty: "LG gyártói garancia"
+        },
+        pl: {
+            title: "LG C1 65\" Class 4K Smart OLED TV z AI ThinQ®",
+            description: "Premium 65-calowy telewizor OLED z oszałamiającą jakością obrazu, idealnymi czerniami i funkcjami smart. Idealny do gier i rozrywki.",
+            features: [
+                "Samoświecące piksele OLED dla idealnych czerni",
+                "Procesor α9 Gen4 AI 4K",
+                "Dolby Vision IQ i Dolby Atmos",
+                "HDMI 2.1 na wszystkich 4 portach (4K@120Hz)",
+                "VRR, kompatybilność G-SYNC, czas reakcji 1ms",
+                "Platforma webOS smart z ThinQ AI",
+                "Wbudowany Google Assistant i Alexa",
+                "Wsparcie FILMMAKER MODE™"
+            ],
+            specifications: [
+                "Rozmiar ekranu: 64,5 cala przekątna",
+                "Rozdzielczość: 3840 x 2160 (4K UHD)",
+                "Typ wyświetlacza: OLED",
+                "Częstotliwość odświeżania: 40Hz - 120Hz",
+                "Kąty widzenia: 178° poziomo/pionowo",
+                "Funkcje gamingowe: czas reakcji 1ms, VRR",
+                "Łączność: 4x HDMI 2.1, Ethernet, Wi-Fi"
+            ],
+            warranty: "Gwarancja producenta LG"
+        }
+    }
+};
+
+// Get translated product details
+function getTranslatedProduct(productId) {
+    const product = productDetails[productId];
+    
+    if (currentLanguage === 'en') {
+        return product;
+    }
+    
+    // Check if we have translations for this product
+    const translations = productTranslations[productId];
+    if (translations && translations[currentLanguage]) {
+        return {
+            ...product,
+            ...translations[currentLanguage]
+        };
+    }
+    
+    // If no translation available, return original with a note
+    return {
+        ...product,
+        title: product.title + " [Translation coming soon]",
+        description: product.description + " [Translation coming soon]"
+    };
 }
 
 // Close modal

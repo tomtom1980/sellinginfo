@@ -872,6 +872,448 @@ const productTranslations = {
             ],
             warranty: "Gwarancja producenta LG"
         }
+    },
+    item2: {
+        hu: {
+            title: "FUFU&GAGA 2-fiókos fekete fa éjjeliszekrények (2 db-os szett)",
+            description: "Modern fekete fa éjjeliszekrények tiszta vonalakkal és funkcionális tárolással. Tökéletes a kortárs hálószoba dekorációhoz.",
+            features: [
+                "2 egyforma éjjeliszekrény szett",
+                "Egyenként 2 tágas fiók",
+                "Tartós fa konstrukció",
+                "4 erős fém láb a stabilitásért",
+                "Modern fekete felület",
+                "Egyszerű összeszerelés szükséges"
+            ],
+            specifications: [
+                "Méretek: 19.7\"Sz x 15.7\"M x 17.9\"Ma egyenként",
+                "Anyag: Fa fém lábakkal",
+                "Szín: Fekete",
+                "Fiók sínek: Simán működő",
+                "Teherbírás: Alkalmas éjjeliszekrény kellékekhez",
+                "Összeszerelés: Szükséges"
+            ],
+            warranty: "Gyártói garancia mellékelve"
+        },
+        pl: {
+            title: "FUFU&GAGA 2-szufladowe czarne drewniane szafki nocne (zestaw 2 szt.)",
+            description: "Nowoczesne czarne drewniane szafki nocne z czystymi liniami i funkcjonalnym przechowywaniem. Idealne do współczesnego wystroju sypialni.",
+            features: [
+                "Zestaw 2 pasujących szafek nocnych",
+                "2 przestronne szuflady na jednostkę",
+                "Trwała drewniana konstrukcja",
+                "4 solidne metalowe nogi dla stabilności",
+                "Nowoczesne czarne wykończenie",
+                "Wymagany łatwy montaż"
+            ],
+            specifications: [
+                "Wymiary: 19.7\"S x 15.7\"G x 17.9\"W każda",
+                "Materiał: Drewno z metalowymi nogami",
+                "Kolor: Czarny",
+                "Prowadnice szuflad: Płynne działanie",
+                "Nośność: Odpowiednia na przybory nocne",
+                "Montaż: Wymagany"
+            ],
+            warranty: "Gwarancja producenta w zestawie"
+        }
+    },
+    item3: {
+        hu: {
+            title: "IKEA MALM 6-fiókos komód",
+            description: "Tágas 6-fiókos komód klasszikus dizájnnal. Tökéletes hálószobai tároláshoz simán futó fiókokkal és biztonsági funkciókkal.",
+            features: [
+                "6 tágas fiók bőséges tároláshoz",
+                "Simán futó fiókok kihúzás-megállítóval",
+                "Biztonsági funkció megakadályozza a felborulást",
+                "Használható szobaosztóként",
+                "Klasszikus fekete-barna felület",
+                "Más MALM bútorokkal koordinálható"
+            ],
+            specifications: [
+                "Méretek: 31 1/2\" x 48 3/8\" x 15 3/4\"",
+                "Anyag: Forgácslap, rostlap, műanyag",
+                "Szín: Fekete-barna",
+                "Fiók kapacitás: Alkalmas ruha tároláshoz",
+                "Biztonság: Felborulás gátló mellékelve",
+                "Összeszerelés: Szükséges"
+            ],
+            warranty: "IKEA 25 éves garancia"
+        },
+        pl: {
+            title: "IKEA MALM 6-szufladowa komoda",
+            description: "Przestronna 6-szufladowa komoda o klasycznym designie. Idealna do przechowywania w sypialni z płynnie działającymi szufladami i funkcjami bezpieczeństwa.",
+            features: [
+                "6 przestronnych szuflad dla dużej pojemności",
+                "Płynnie działające szuflady z ogranicznikiem wysuwu",
+                "Funkcja bezpieczeństwa zapobiega przewróceniu",
+                "Może być używana jako dzielnik pokoju",
+                "Klasyczne czarno-brązowe wykończenie",
+                "Koordynuje się z innymi meblami MALM"
+            ],
+            specifications: [
+                "Wymiary: 31 1/2\" x 48 3/8\" x 15 3/4\"",
+                "Materiał: Płyta wiórowa, płyta pilśniowa, plastik",
+                "Kolor: Czarno-brązowy",
+                "Pojemność szuflad: Odpowiednia do przechowywania odzieży",
+                "Bezpieczeństwo: Zawiera ogranicznik przechyłu",
+                "Montaż: Wymagany"
+            ],
+            warranty: "25-letnia gwarancja IKEA"
+        }
+    },
+    item4: {
+        hu: {
+            title: "Sony STRDH190 sztereó vevő és Audio-Technica lemezjátszó",
+            description: "Komplett audio rendszer Sony 2-csatornás sztereó vevővel és Audio-Technica AT-LP120XUSB lemezjátszóval bakelitlemez rajongóknak. Két külön komponens együtt eladva.",
+            features: [
+                "Sony STRDH190 2-csatornás sztereó vevő",
+                "Bluetooth kapcsolat vezeték nélküli streaminghez",
+                "Phono bemenet kifejezetten lemezjátszókhoz",
+                "Audio-Technica AT-LP120XUSB direkt meghajtású lemezjátszó",
+                "USB kimenet bakelitlemezek digitalizálásához",
+                "Professzionális DJ funkciók nagy nyomatékú motorral"
+            ],
+            specifications: [
+                "Vevő teljesítmény: 100W csatornánként",
+                "Lemezjátszó típus: Direkt meghajtású",
+                "Sebességek: 33-1/3 és 45 RPM",
+                "Csatlakozás: Bluetooth, analóg, USB",
+                "Hangkar: S-alakú állítható ellensúllyal",
+                "Hangszedő: AT-VM95E mellékelve"
+            ],
+            warranty: "Gyártói garanciák mindkét egységhez"
+        },
+        pl: {
+            title: "Odbiornik stereo Sony STRDH190 i gramofon Audio-Technica",
+            description: "Kompletny system audio z 2-kanałowym odbiornikiem stereo Sony i gramofonem Audio-Technica AT-LP120XUSB dla miłośników winylu. Dwa osobne komponenty sprzedawane razem.",
+            features: [
+                "2-kanałowy odbiornik stereo Sony STRDH190",
+                "Łączność Bluetooth do bezprzewodowego streamingu",
+                "Wejście phono specjalnie dla gramofonów",
+                "Gramofon Audio-Technica AT-LP120XUSB z napędem bezpośrednim",
+                "Wyjście USB do digitalizacji płyt winylowych",
+                "Profesjonalne funkcje DJ z silnikiem o wysokim momencie obrotowym"
+            ],
+            specifications: [
+                "Moc odbiornika: 100W na kanał",
+                "Typ gramofonu: Napęd bezpośredni",
+                "Prędkości: 33-1/3 i 45 RPM",
+                "Łączność: Bluetooth, analogowa, USB",
+                "Ramię: S-kształtne z regulowaną przeciwwagą",
+                "Wkładka: AT-VM95E w zestawie"
+            ],
+            warranty: "Gwarancje producenta dla obu urządzeń"
+        }
+    },
+    item5: {
+        hu: {
+            title: "TV egység és média polc",
+            description: "Modern TV állvány tárolópolcokkal média komponensekhez és kiegészítőkhöz. Tiszta dizájn, amely a legtöbb nappaliba illik.",
+            features: [
+                "Több tárolórekesz",
+                "Kábelkezelő rendszer",
+                "65 hüvelykes TV-kig alkalmas",
+                "Modern minimalista dizájn",
+                "Tartós konstrukció",
+                "Egyszerű összeszerelés"
+            ],
+            specifications: [
+                "Anyag: Műszaki fa",
+                "Szín: Modern felület",
+                "Teherbírás: A legtöbb TV-t megtartja",
+                "Tárolás: Több polc és rekesz",
+                "Összeszerelés: Szükséges",
+                "Stílus: Kortárs"
+            ],
+            warranty: "Szabványos gyártói garancia"
+        },
+        pl: {
+            title: "Szafka TV i półka medialna",
+            description: "Nowoczesna szafka TV z półkami do przechowywania komponentów medialnych i akcesoriów. Czysty design pasujący do większości salonów.",
+            features: [
+                "Wiele przegródek do przechowywania",
+                "System zarządzania kablami",
+                "Odpowiednia dla telewizorów do 65 cali",
+                "Nowoczesny minimalistyczny design",
+                "Trwała konstrukcja",
+                "Łatwy montaż"
+            ],
+            specifications: [
+                "Materiał: Drewno inżynieryjne",
+                "Kolor: Nowoczesne wykończenie",
+                "Nośność: Obsługuje większość telewizorów",
+                "Przechowywanie: Wiele półek i przegródek",
+                "Montaż: Wymagany",
+                "Styl: Współczesny"
+            ],
+            warranty: "Standardowa gwarancja producenta"
+        }
+    },
+    item7: {
+        hu: {
+            title: "Könyvespolc/HiFi média állvány",
+            description: "Sokoldalú tároló egység, tökéletes könyvekhez, média berendezésekhez és dekoratív tárgyakhoz. Klasszikus dizájn, amely bármilyen szobába illik.",
+            features: [
+                "Több polcszint",
+                "Erős konstrukció",
+                "Tökéletes könyvekhez és médiához",
+                "Klasszikus fa felület",
+                "Állítható polcok",
+                "Könnyű összeszerelés"
+            ],
+            specifications: [
+                "Anyag: Fa kompozit",
+                "Polcok: Több állítható szint",
+                "Teherbírás: Alkalmas könyvekhez és elektronikához",
+                "Felület: Fa erezetű",
+                "Összeszerelés: Szükséges",
+                "Stílus: Hagyományos"
+            ],
+            warranty: "Szabványos gyártói garancia"
+        },
+        pl: {
+            title: "Regał/stojak na media HiFi",
+            description: "Wszechstronna jednostka do przechowywania idealna na książki, sprzęt medialny i przedmioty dekoracyjne. Klasyczny design pasujący do każdego pokoju.",
+            features: [
+                "Wiele poziomów półek",
+                "Solidna konstrukcja",
+                "Idealny na książki i media",
+                "Klasyczne drewniane wykończenie",
+                "Regulowane półki",
+                "Łatwy montaż"
+            ],
+            specifications: [
+                "Materiał: Kompozyt drzewny",
+                "Półki: Wiele regulowanych poziomów",
+                "Nośność: Odpowiednia dla książek i elektroniki",
+                "Wykończenie: Imitacja drewna",
+                "Montaż: Wymagany",
+                "Styl: Tradycyjny"
+            ],
+            warranty: "Standardowa gwarancja producenta"
+        }
+    },
+    item8: {
+        hu: {
+            title: "Denny szövet elektromos dönthető 4 részes szekcionált kanapé",
+            description: "Luxus elektromos dönthető szekcionált kanapé hamuszürke színben. Elektromos fejtámlákkal, USB töltőportokkal és prémium szövet kárpitozással.",
+            features: [
+                "4 részes szekcionált konfiguráció",
+                "Elektromos döntési mechanizmus",
+                "Elektromosan állítható fejtámlák",
+                "Beépített USB töltőportok",
+                "Prémium hamuszürke szövet",
+                "Memóriahab párnázás",
+                "Nulla fal távolság döntés"
+            ],
+            specifications: [
+                "Konfiguráció: 4 részes szekcionált",
+                "Kárpitozás: Prémium szövet",
+                "Szín: Hamuszürke",
+                "Elektromos funkciók: Döntés és fejtámlák",
+                "Töltés: USB portok mellékelve",
+                "Keret: Keményfa konstrukció"
+            ],
+            warranty: "Kasala gyártói garancia"
+        },
+        pl: {
+            title: "Denny tkaninowa 4-częściowa narożnik z elektrycznym rozkładaniem",
+            description: "Luksusowa narożnik z elektrycznym rozkładaniem w kolorze popielatoszarym. Posiada elektryczne zagłówki, porty ładowania USB i premium tapicerkę tkaninową.",
+            features: [
+                "4-częściowa konfiguracja narożnika",
+                "Mechanizm elektrycznego rozkładania",
+                "Elektrycznie regulowane zagłówki",
+                "Wbudowane porty ładowania USB",
+                "Premium popielatoszara tkanina",
+                "Poduszki z pianki pamięciowej",
+                "Rozkładanie bez odstępu od ściany"
+            ],
+            specifications: [
+                "Konfiguracja: 4-częściowy narożnik",
+                "Tapicerka: Premium tkanina",
+                "Kolor: Popielatoszary",
+                "Funkcje elektryczne: Rozkładanie i zagłówki",
+                "Ładowanie: Porty USB w zestawie",
+                "Rama: Konstrukcja z twardego drewna"
+            ],
+            warranty: "Gwarancja producenta Kasala"
+        }
+    },
+    item9: {
+        hu: {
+            title: "50\" fehér téglalap alakú fenyő konzolasztal",
+            description: "Retro és modern dizájnú konzolasztal tárolófiókokkal és nyitott polcokkal. Tökéletes előszobába vagy nappaliba.",
+            features: [
+                "50 hüvelykes szélesség bőséges felülettel",
+                "3 felső fiók rejtett tároláshoz",
+                "2 nyitott polc kiállításhoz",
+                "Masszív fenyőfa konstrukció",
+                "Tiszta fehér felület",
+                "Retro-modern dizájn esztétika"
+            ],
+            specifications: [
+                "Méretek: 50\" Sz x megfelelő mélység és magasság",
+                "Anyag: Fenyőfa",
+                "Szín: Fehér",
+                "Tárolás: 3 fiók + 2 nyitott polc",
+                "Stílus: Retro-modern",
+                "Összeszerelés: Szükséges"
+            ],
+            warranty: "Harper Bright Designs garancia"
+        },
+        pl: {
+            title: "50\" biały prostokątny stół konsolowy z sosny",
+            description: "Stół konsolowy w stylu retro i nowoczesnym z szufladami do przechowywania i otwartymi półkami. Idealny do przedpokoju lub salonu.",
+            features: [
+                "50-calowa szerokość dla dużej powierzchni",
+                "3 górne szuflady do ukrytego przechowywania",
+                "2 otwarte półki do ekspozycji",
+                "Solidna konstrukcja z drewna sosnowego",
+                "Czyste białe wykończenie",
+                "Estetyka retro-nowoczesnego designu"
+            ],
+            specifications: [
+                "Wymiary: 50\" S x odpowiednia głębokość i wysokość",
+                "Materiał: Drewno sosnowe",
+                "Kolor: Biały",
+                "Przechowywanie: 3 szuflady + 2 otwarte półki",
+                "Styl: Retro-nowoczesny",
+                "Montaż: Wymagany"
+            ],
+            warranty: "Gwarancja Harper Bright Designs"
+        }
+    },
+    item10: {
+        hu: {
+            title: "Fém bárszekrény ezüst",
+            description: "3 szintes házi bár szervírozó kocsi záródó görgőkkel. Tökéletes szórakoztatáshoz és mobil bár szolgáltatáshoz.",
+            features: [
+                "3 szintes dizájn maximális tároláshoz",
+                "Záródó görgők a mobilitásért",
+                "Króm/ezüst felület",
+                "Edzett üveg polcok",
+                "Borospohár tartók",
+                "Palack tároló területek"
+            ],
+            specifications: [
+                "Szintek: 3 szint",
+                "Anyag: Fém keret üveg polcokkal",
+                "Felület: Króm/Ezüst",
+                "Kerekek: 4 záródó görgő",
+                "Tárolás: Borospoharak és palackok",
+                "Összeszerelés: Szükséges"
+            ],
+            warranty: "Gyártói garancia"
+        },
+        pl: {
+            title: "Metalowy wózek barowy srebrny",
+            description: "3-poziomowy domowy wózek barowy serwujący z blokującymi kółkami. Idealny do rozrywki i mobilnej obsługi barowej.",
+            features: [
+                "3-poziomowy design dla maksymalnego przechowywania",
+                "Blokujące kółka dla mobilności",
+                "Chromowane/srebrne wykończenie",
+                "Półki ze szkła hartowanego",
+                "Uchwyty na kieliszki do wina",
+                "Miejsca do przechowywania butelek"
+            ],
+            specifications: [
+                "Poziomy: 3 poziomy",
+                "Materiał: Metalowa rama ze szklanymi półkami",
+                "Wykończenie: Chrom/Srebro",
+                "Kółka: 4 blokujące kółka",
+                "Przechowywanie: Kieliszki do wina i butelki",
+                "Montaż: Wymagany"
+            ],
+            warranty: "Gwarancja producenta"
+        }
+    },
+    item11: {
+        hu: {
+            title: "La-Z-Boy Kennedy teljes méretű kanapéágy",
+            description: "Prémium kanapéágy teljes méretű légmatrac rendszerrel. Percek alatt átalakítható kényelmes ülésből queen méretű ággyá.",
+            features: [
+                "Teljes méretű alvófelület",
+                "Integrált légmatrac rendszer",
+                "Prémium szövet kárpitozás",
+                "La-Z-Boy kényelmi technológia",
+                "Könnyű átalakítási mechanizmus",
+                "Tartós keményfa keret"
+            ],
+            specifications: [
+                "Alvófelület: Teljes/Queen méret",
+                "Matrac: Integrált légrendszer",
+                "Keret: Keményfa konstrukció",
+                "Kárpitozás: Prémium szövet",
+                "Mechanizmus: Könnyű kihajtás",
+                "Márka: La-Z-Boy"
+            ],
+            warranty: "La-Z-Boy gyártói garancia"
+        },
+        pl: {
+            title: "La-Z-Boy Kennedy pełnowymiarowa sofa rozkładana",
+            description: "Premium sofa rozkładana z pełnowymiarowym systemem materaca powietrznego. Przekształca się z wygodnego siedzenia w łóżko queen w ciągu minut.",
+            features: [
+                "Pełnowymiarowa powierzchnia do spania",
+                "Zintegrowany system materaca powietrznego",
+                "Premium tapicerka tkaninowa",
+                "Technologia komfortu La-Z-Boy",
+                "Łatwy mechanizm przekształcania",
+                "Trwała rama z twardego drewna"
+            ],
+            specifications: [
+                "Powierzchnia do spania: Pełny/Queen rozmiar",
+                "Materac: Zintegrowany system powietrzny",
+                "Rama: Konstrukcja z twardego drewna",
+                "Tapicerka: Premium tkanina",
+                "Mechanizm: Łatwe rozkładanie",
+                "Marka: La-Z-Boy"
+            ],
+            warranty: "Gwarancja producenta La-Z-Boy"
+        }
+    },
+    item12: {
+        hu: {
+            title: "La-Z-Boy Astor Platinum elektromos emelő fotel",
+            description: "Prémium elektromos emelő fotel fejtámlával és deréktámasszal. Kényelemre és mobilitási segítségre tervezve.",
+            features: [
+                "Elektromos emelő mechanizmus könnyű felálláshoz",
+                "Elektromosan állítható fejtámla",
+                "Deréktámasz rendszer",
+                "Prémium platina kárpitozás",
+                "Végtelen döntési pozíciók",
+                "Akkumulátor tartalék rendszer"
+            ],
+            specifications: [
+                "Típus: Elektromos emelő fotel",
+                "Funkciók: Fejtámla és deréktámasz",
+                "Kárpitozás: Platina szövet",
+                "Áram: Kettős motor rendszer",
+                "Tartalék: Akkumulátor mellékelve",
+                "Márka: La-Z-Boy"
+            ],
+            warranty: "La-Z-Boy gyártói garancia"
+        },
+        pl: {
+            title: "La-Z-Boy Astor Platinum elektryczny fotel podnoszący",
+            description: "Premium elektryczny fotel podnoszący z zagłówkiem i wsparciem lędźwiowym. Zaprojektowany dla komfortu i pomocy w mobilności.",
+            features: [
+                "Mechanizm elektrycznego podnoszenia dla łatwego wstawania",
+                "Elektrycznie regulowany zagłówek",
+                "System wsparcia lędźwiowego",
+                "Premium platynowa tapicerka",
+                "Nieskończone pozycje rozkładania",
+                "System zasilania awaryjnego"
+            ],
+            specifications: [
+                "Typ: Elektryczny fotel podnoszący",
+                "Funkcje: Zagłówek i wsparcie lędźwiowe",
+                "Tapicerka: Platynowa tkanina",
+                "Zasilanie: System dwóch silników",
+                "Zasilanie awaryjne: Bateria w zestawie",
+                "Marka: La-Z-Boy"
+            ],
+            warranty: "Gwarancja producenta La-Z-Boy"
+        }
     }
 };
 
@@ -892,13 +1334,10 @@ function getTranslatedProduct(productId) {
         };
     }
     
-    // If no translation available, return original with a note
-    return {
-        ...product,
-        title: product.title + " [Translation coming soon]",
-        description: product.description + " [Translation coming soon]"
-    };
+    // Return original if no translation available (shouldn't happen now)
+    return product;
 }
+
 
 // Close modal
 function closeModal() {

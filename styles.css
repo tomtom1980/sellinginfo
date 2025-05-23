@@ -831,6 +831,7 @@ footer {
 /* Smooth scrolling and animations */
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Account for sticky header */
 }
 
 /* Loading animation for images */
@@ -1530,4 +1531,52 @@ html {
         width: 12px;
         height: 33px;
     }
+}
+
+/* Contact Link Styling */
+.contact-link {
+    color: #fbbf24;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    font-size: 1.1em;
+}
+
+.contact-link::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #fbbf24, #f59e0b);
+    transition: width 0.3s ease;
+}
+
+.contact-link:hover::before {
+    width: 100%;
+}
+
+.contact-link:hover {
+    color: #f59e0b;
+    transform: translateY(-2px);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.contact-link::after {
+    content: ' ↓';
+    font-size: 0.9em;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    transform: translateY(-5px);
+}
+
+.contact-link:hover::after {
+    opacity: 1;
+    transform: translateY(0);
 }

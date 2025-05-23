@@ -1580,3 +1580,145 @@ html {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* Cowboy Hat Styles */
+.cowboy-hat {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-30px) rotate(-15deg);
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    pointer-events: none;
+    z-index: 20;
+}
+
+.hat-top {
+    width: 45px;
+    height: 25px;
+    background: linear-gradient(135deg, #92400e 0%, #78350f 50%, #451a03 100%);
+    border-radius: 50% 50% 40% 40%;
+    position: relative;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hat-top::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35px;
+    height: 2px;
+    background: #d97706;
+    border-radius: 2px;
+}
+
+.hat-brim {
+    width: 70px;
+    height: 8px;
+    background: linear-gradient(135deg, #78350f 0%, #451a03 100%);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Robot hover state for hat animation */
+.ai-robot:hover .cowboy-hat {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) rotate(0deg);
+    transition-delay: 0.2s;
+}
+
+/* Enhanced arm animation on hover - tip hat gesture */
+.ai-robot:hover .robot-arm.right {
+    animation: tipHat 2s ease-in-out forwards;
+}
+
+@keyframes tipHat {
+    0% { transform: rotate(5deg); }
+    20% { transform: rotate(-45deg) translateY(-15px); }
+    30% { transform: rotate(-50deg) translateY(-18px); }
+    40% { transform: rotate(-45deg) translateY(-15px); }
+    60% { transform: rotate(-45deg) translateY(-15px); }
+    100% { transform: rotate(5deg); }
+}
+
+/* Robot mouth smile on hover */
+.ai-robot:hover .robot-mouth {
+    height: 8px;
+    border-radius: 0 0 20px 20px;
+    transition: all 0.3s ease;
+}
+
+/* Robot eye wink on hover */
+.ai-robot:hover .robot-eye.right {
+    animation: wink 2s ease-in-out forwards;
+}
+
+@keyframes wink {
+    0%, 15% { transform: scaleY(1); }
+    20%, 30% { transform: scaleY(0.1); }
+    35%, 100% { transform: scaleY(1); }
+}
+
+/* Smooth transition when hover ends */
+.ai-robot {
+    transition: all 0.3s ease;
+}
+
+.ai-robot .robot-arm {
+    transition: all 0.6s ease;
+}
+
+.ai-robot .robot-mouth {
+    transition: all 0.5s ease;
+}
+
+/* Add hover interaction hint */
+.ai-robot-container {
+    cursor: pointer;
+    position: relative;
+}
+
+.ai-robot-container::after {
+    content: 'Hover me!';
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.ai-robot-container:not(:hover)::after {
+    animation: hoverHint 3s ease-in-out infinite;
+}
+
+@keyframes hoverHint {
+    0%, 70%, 100% { opacity: 0; }
+    80%, 90% { opacity: 1; }
+}
+
+/* Responsive cowboy hat */
+@media (max-width: 768px) {
+    .cowboy-hat {
+        top: -12px;
+    }
+    
+    .hat-top {
+        width: 38px;
+        height: 20px;
+    }
+    
+    .hat-brim {
+        width: 58px;
+        height: 6px;
+    }
+}

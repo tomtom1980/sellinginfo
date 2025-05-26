@@ -170,7 +170,7 @@ const productDetails = {
     },
     item4: {
         title: "Sony STRDH190 Stereo Receiver & Audio-Technica Turntable",
-        price: "$299",
+        price: "$199",
         originalPrice: "$628",
         description: "Complete audio system with Sony 2-channel stereo receiver and Audio-Technica AT-LP120XUSB turntable for vinyl enthusiasts. Two separate components sold together.",
         features: [

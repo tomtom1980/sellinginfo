@@ -13,7 +13,6 @@ const productImages = {
     item12: ['./item12-1.png', './item12-2.png', './item12-web1.png', './item12-web2.png'],
     item13: ['./item13-1.png'],
     item14: ['./item14-1.png', './item14-2.png', './item14-web1.png'],
-    item15: ['./item15-1.png', './item15-web1.png'],
     item16: ['./item16-1.png', './item16-web1.png'],
     item18: ['./item18-1.png', './item18-web1.png'],
     item19: ['./item19-1.png', './item19-2.png', './item19-3.png', './item19-web1.png'],
@@ -417,29 +416,6 @@ const productDetails = {
             "Weight capacity: Adult rider"
         ],
         link: "https://www.voromotors.com/pages/search-results-page?q=emove%20cruiser"
-    },
-    item15: {
-        title: "Corvus Padova 4-Piece Wicker Patio Set",
-        price: "$199",
-        originalPrice: "$686",
-        description: "Complete outdoor conversation set with weather-resistant wicker construction. Perfect for patio entertaining.",
-        features: [
-            "4-piece conversation set",
-            "Weather-resistant wicker",
-            "Comfortable cushions included",
-            "UV-resistant materials",
-            "Easy maintenance",
-            "Classic patio design"
-        ],
-        specifications: [
-            "Pieces: 4-piece set",
-            "Material: Weather-resistant wicker",
-            "Cushions: Included",
-            "UV Protection: Yes",
-            "Maintenance: Low",
-            "Style: Traditional patio"
-        ],
-        link: "https://www.bedbathandbeyond.com/Home-Garden/Corvus-Padova-4-piece-Wicker-Patio-Chat-Set/21417060/product.html"
     },
     item16: {
         title: "11-12 ft. Deluxe Aluminum Patio Umbrella",
@@ -1706,48 +1682,6 @@ function updateModalContent(productId) {
                 "Zasięg: Zdolny do dużych odległości",
                 "Hamulce: Zaawansowany system hamulców tarczowych",
                 "Nośność: Dla dorosłego użytkownika"
-            ],
-        }
-    },
-    item15: {
-        hu: {
-            title: "Corvus Padova 4 részes fonott kerti bútor szett",
-            description: "Komplett kültéri társalgó szett időjárásálló fonott konstrukcióval. Tökéletes kerti szórakoztatáshoz.",
-            features: [
-                "4 részes társalgó szett",
-                "Időjárásálló fonott anyag",
-                "Kényelmes párnák mellékelve",
-                "UV-álló anyagok",
-                "Könnyű karbantartás",
-                "Klasszikus kerti dizájn"
-            ],
-            specifications: [
-                "Darabok: 4 részes szett",
-                "Anyag: Időjárásálló fonott",
-                "Párnák: Mellékelve",
-                "UV védelem: Igen",
-                "Karbantartás: Alacsony",
-                "Stílus: Hagyományos kerti"
-            ],
-        },
-        pl: {
-            title: "Zestaw mebli ogrodowych Corvus Padova 4-częściowy",
-            description: "Kompletny zestaw wypoczynkowy na zewnątrz z odporną na warunki atmosferyczne konstrukcją wiklinową. Idealny do rozrywki w ogrodzie.",
-            features: [
-                "4-częściowy zestaw wypoczynkowy",
-                "Wiklina odporna na warunki atmosferyczne",
-                "Wygodne poduszki w zestawie",
-                "Materiały odporne na UV",
-                "Łatwa konserwacja",
-                "Klasyczny ogrodowy design"
-            ],
-            specifications: [
-                "Części: Zestaw 4-częściowy",
-                "Materiał: Wiklina odporna na pogodę",
-                "Poduszki: W zestawie",
-                "Ochrona UV: Tak",
-                "Konserwacja: Niska",
-                "Styl: Tradycyjny ogrodowy"
             ],
         }
     },

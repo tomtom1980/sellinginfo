@@ -12,8 +12,6 @@ const productImages = {
     item11: ['./item11-1.png', './item11-web1.png', './item11-web2.png'],
     item12: ['./item12-1.png', './item12-2.png', './item12-web1.png', './item12-web2.png'],
     item13: ['./item13-1.png'],
-    item14: ['./item14-1.png', './item14-2.png', './item14-web1.png'],
-    item16: ['./item16-1.png', './item16-web1.png'],
     item18: ['./item18-1.png', './item18-web1.png'],
     item19: ['./item19-1.png', './item19-2.png', './item19-3.png', './item19-web1.png'],
     item20: ['./item20-1.png', './item20-web1.png'],
@@ -35,7 +33,6 @@ const productImages = {
     item36: ['./item36-1.png'],
     item37: ['./item37-1.png', './item37-2.png'],
     item38: ['./item38-1.png'],
-    item39: ['./item39-1.png'],
     item40: ['./item40-1.png']
 };
 
@@ -393,52 +390,6 @@ const productDetails = {
             "Serial Number: SM042404"
         ],
         link: "#"
-    },
-    item14: {
-        title: "EMOVE Cruiser Electric Scooter",
-        price: "$349",
-        originalPrice: "$1,399",
-        description: "Long-range electric scooter with dual suspension and powerful 1600W motor. Perfect for commuting and recreation.",
-        features: [
-            "52V battery system",
-            "1600W powerful motor",
-            "Dual suspension system",
-            "Long range capability",
-            "High-quality construction",
-            "Advanced braking system"
-        ],
-        specifications: [
-            "Motor: 1600W",
-            "Battery: 52V system",
-            "Suspension: Dual front and rear",
-            "Range: Long distance capable",
-            "Brakes: Advanced disc system",
-            "Weight capacity: Adult rider"
-        ],
-        link: "https://www.voromotors.com/pages/search-results-page?q=emove%20cruiser"
-    },
-    item16: {
-        title: "11-12 ft. Deluxe Aluminum Patio Umbrella",
-        price: "$199",
-        originalPrice: "$533",
-        description: "Large cantilever patio umbrella with base included. Provides excellent shade coverage for outdoor spaces.",
-        features: [
-            "11-12 foot coverage area",
-            "Cantilever design",
-            "Aluminum construction",
-            "Base included",
-            "Weather-resistant fabric",
-            "Easy tilt mechanism"
-        ],
-        specifications: [
-            "Size: 11-12 feet diameter",
-            "Type: Cantilever",
-            "Material: Aluminum frame",
-            "Base: Included",
-            "Fabric: Weather-resistant",
-            "Operation: Easy tilt and rotation"
-        ],
-        link: "https://www.bedbathandbeyond.com/Home-Garden/Deluxe-Aluminum-Offset-Umbrella-Patio-Cantilever-Umbrella/36035085/product.html"
     },
     item18: {
         title: "Traeger Pro 575 Pellet Grill",
@@ -985,33 +936,6 @@ const productDetails = {
             "Style: Modern minimalist"
         ],
         link: "https://www.bedbathandbeyond.com/Home-Garden/Shoe-Cabinet-Brown-Shoe-Storage-Organizer-with-2-Compartment-2-Tier/36087582/product.html"
-    },
-    item39: {
-        title: "Dyson V11 Origin Cordless Vacuum",
-        price: "$99",
-        originalPrice: "$470",
-        description: "Powerful cordless vacuum with advanced whole-machine filtration. Intelligently optimizes suction and run time across all floor types.",
-        features: [
-            "Up to 60 minutes of fade-free suction",
-            "Advanced whole-machine filtration",
-            "LCD screen displays real-time performance",
-            "3 cleaning modes for different tasks",
-            "Point-and-shoot hygienic bin emptying",
-            "Converts to handheld vacuum",
-            "Wall-mounted docking station included",
-            "Multiple attachments for versatile cleaning"
-        ],
-        specifications: [
-            "Run Time: Up to 60 minutes",
-            "Charge Time: 4.5 hours",
-            "Bin Capacity: 0.77 liters",
-            "Weight: 6.68 lbs",
-            "Filtration: Whole-machine HEPA",
-            "Cleaning Modes: Eco, Auto, Boost",
-            "Color: Nickel/Blue",
-            "Attachments: Crevice tool, combination tool, mini motorized tool"
-        ],
-        link: "https://www.amazon.com/Dyson-Origin-Cordless-Vacuum-Nickel/dp/B00FZPRUTY"
     },
     item40: {
         title: "Modern Decorative Vase Collection",
@@ -1640,90 +1564,6 @@ function updateModalContent(productId) {
                 "Typ: Rower górski",
                 "Stan: Używany, dobrze utrzymany",
                 "Numer seryjny: SM042404"
-            ],
-        }
-    },
-    item14: {
-        hu: {
-            title: "EMOVE Cruiser elektromos roller",
-            description: "Nagy hatótávolságú elektromos roller kettős felfüggesztéssel és erős 1600W motorral. Tökéletes ingázáshoz és szabadidőhöz.",
-            features: [
-                "52V akkumulátor rendszer",
-                "1600W erős motor",
-                "Kettős felfüggesztési rendszer",
-                "Nagy hatótávolságú képesség",
-                "Kiváló minőségű konstrukció",
-                "Fejlett fékrendszer"
-            ],
-            specifications: [
-                "Motor: 1600W",
-                "Akkumulátor: 52V rendszer",
-                "Felfüggesztés: Kettős első és hátsó",
-                "Hatótáv: Nagy távolságra képes",
-                "Fékek: Fejlett tárcsafék rendszer",
-                "Teherbírás: Felnőtt használatra"
-            ],
-        },
-        pl: {
-            title: "Hulajnoga elektryczna EMOVE Cruiser",
-            description: "Hulajnoga elektryczna dalekiego zasięgu z podwójnym zawieszeniem i mocnym silnikiem 1600W. Idealna do dojazdów i rekreacji.",
-            features: [
-                "System baterii 52V",
-                "Mocny silnik 1600W",
-                "System podwójnego zawieszenia",
-                "Możliwość dalekiego zasięgu",
-                "Wysokiej jakości konstrukcja",
-                "Zaawansowany system hamulcowy"
-            ],
-            specifications: [
-                "Silnik: 1600W",
-                "Bateria: System 52V",
-                "Zawieszenie: Podwójne przód i tył",
-                "Zasięg: Zdolny do dużych odległości",
-                "Hamulce: Zaawansowany system hamulców tarczowych",
-                "Nośność: Dla dorosłego użytkownika"
-            ],
-        }
-    },
-    item16: {
-        hu: {
-            title: "11-12 láb Deluxe alumínium kerti napernyő",
-            description: "Nagy konzolos kerti napernyő talppal együtt. Kiváló árnyékot biztosít kültéri terekhez.",
-            features: [
-                "11-12 láb átmérőjű fedési terület",
-                "Konzolos dizájn",
-                "Alumínium konstrukció",
-                "Talp mellékelve",
-                "Időjárásálló szövet",
-                "Könnyű döntési mechanizmus"
-            ],
-            specifications: [
-                "Méret: 11-12 láb átmérő",
-                "Típus: Konzolos",
-                "Anyag: Alumínium keret",
-                "Talp: Mellékelve",
-                "Szövet: Időjárásálló",
-                "Működés: Könnyű döntés és forgatás"
-            ],
-        },
-        pl: {
-            title: "11-12 stóp Deluxe aluminiowy parasol ogrodowy",
-            description: "Duży parasol ogrodowy typu cantilever z bazą w zestawie. Zapewnia doskonały cień dla przestrzeni zewnętrznych.",
-            features: [
-                "11-12 stóp obszar pokrycia",
-                "Design typu cantilever",
-                "Konstrukcja aluminiowa",
-                "Baza w zestawie",
-                "Tkanina odporna na warunki atmosferyczne",
-                "Łatwy mechanizm przechylania"
-            ],
-            specifications: [
-                "Rozmiar: 11-12 stóp średnicy",
-                "Typ: Cantilever",
-                "Materiał: Rama aluminiowa",
-                "Baza: W zestawie",
-                "Tkanina: Odporna na pogodę",
-                "Obsługa: Łatwe przechylanie i obracanie"
             ],
         }
     },

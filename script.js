@@ -4,34 +4,25 @@ const productImages = {
     item2: ['./item2-1.png', './item2-web1.png'],
     item4: ['./item4-1.png', './item4-2.png', './item4-web1.png', './item4-web2.png'],
     item5: ['./item5-1.png', './item5-2.png'],
-    item6: ['./item6-1.png', './item6-2.png', './item6-web1.png'],
     item7: ['./item7-1.png'],
-    item8: ['./item8-1.png', './item8-2.png', './item8-web1.png'],
     item9: ['./item9-1.png', './item9-web1.png'],
     item10: ['./item10-1.png', './item10-web1.png'],
     item11: ['./item11-1.png', './item11-web1.png', './item11-web2.png'],
     item12: ['./item12-1.png', './item12-2.png', './item12-web1.png', './item12-web2.png'],
     item13: ['./item13-1.png'],
     item18: ['./item18-1.png', './item18-web1.png'],
-    item19: ['./item19-1.png', './item19-2.png', './item19-3.png', './item19-web1.png'],
     item20: ['./item20-1.png', './item20-web1.png'],
-    item21: ['./item21-1.png', './item21-2.png', './item21-3.png', './item21-web1.png', './item21-web2.png'],
     item22: ['./item22-1.png', './item22-2.png', './item22-web1.png'],
     item23: ['./item23-1.png', './item23-2.png', './item23-web1.png'],
     item24: ['./item24-1.png', './item24-web1.png'],
     item25: ['./item25-1.png'],
     item26: ['./item26-1.png'],
-    item27: ['./item27-1.png'],
     item28: ['./item28-1.png'],
     item29: ['./item29-1.png'],
     item30: ['./item30-1.png'],
-    item31: ['./item31-2.png', './item31-1.png'],
-    item32: ['./item32-1.png'],
-    item33: ['./item33-1.png'],
     item34: ['./item34-1.png', './item34-2.png', './item34-3.png'],
     item35: ['./item35-1.png'],
     item36: ['./item36-1.png'],
-    item37: ['./item37-1.png', './item37-2.png'],
     item38: ['./item38-1.png'],
     item40: ['./item40-1.png']
 };
@@ -209,32 +200,6 @@ const productDetails = {
         ],
         link: "#"
     },
-    item6: {
-        title: "LG C1 65\" Class 4K Smart OLED TV with AI ThinQ®",
-        price: "$599",
-        originalPrice: "$2,299",
-        description: "Premium 65-inch OLED TV with stunning picture quality, perfect blacks, and smart features. Ideal for gaming and entertainment.",
-        features: [
-            "Self-lit OLED pixels for perfect blacks",
-            "α9 Gen4 AI processor 4K",
-            "Dolby Vision IQ and Dolby Atmos",
-            "HDMI 2.1 on all 4 ports (4K@120Hz)",
-            "VRR, G-SYNC compatibility, 1ms response time",
-            "webOS smart platform with ThinQ AI",
-            "Google Assistant and Alexa built-in",
-            "FILMMAKER MODE™ support"
-        ],
-        specifications: [
-            "Screen Size: 64.5 inches diagonal",
-            "Resolution: 3840 x 2160 (4K UHD)",
-            "Display Type: OLED",
-            "Refresh Rate: 40Hz - 120Hz",
-            "Viewing Angles: 178° horizontal/vertical",
-            "Gaming Features: 1ms response time, VRR",
-            "Connectivity: 4x HDMI 2.1, Ethernet, Wi-Fi"
-        ],
-        link: "https://www.lg.com/us/tvs/lg-oled65c1pub-oled-4k-tv"
-    },
     item7: {
         title: "Bookshelf/HiFi Media Stand",
         price: "$49",
@@ -255,28 +220,6 @@ const productDetails = {
             "Style: Traditional"
         ],
         link: "#"
-    },
-    item8: {
-        title: "Denny Fabric Power Recline 4-Piece Sectional",
-        price: "$499",
-        originalPrice: "$2,999",
-        description: "Luxury power reclining sectional sofa in ash grey. Features power headrests, USB charging, and premium fabric upholstery.",
-        features: [
-            "4-piece sectional configuration",
-            "Power reclining mechanism",
-            "Power adjustable headrests",
-            "Premium ash grey fabric",
-            "Memory foam cushioning",
-            "Zero wall clearance reclining"
-        ],
-        specifications: [
-            "Configuration: 4-piece sectional",
-            "Upholstery: Premium fabric",
-            "Color: Ash Grey",
-            "Power Features: Reclining and headrests",
-            "Frame: Hardwood construction"
-        ],
-        link: "https://www.kasala.com/catalog/product/furniture/denny-fabric-power-recline-4-piece-sectional-ash-grey/?sku=350163&gad_source=1&gad_campaignid=17347513802&gbraid=0AAAAAC1yhrvVp-3ym33uw1rnXOw6NPLwd&gclid=CjwKCAjw87XBBhBIEiwAxP3_A9FwtM0tndTr8TeX4-4YXm6j-FqHkjSpImjlY84_ns-WARADcU0IMRoCm4gQAvD_BwE"
     },
     item9: {
         title: "50\" White Rectangle Pine Console Table",
@@ -414,29 +357,6 @@ const productDetails = {
         ],
         link: "https://www.amazon.com/dp/B07T2FWL8Q"
     },
-    item19: {
-        title: "Capri 7-Piece Dining Set",
-        price: "$499",
-        originalPrice: "$1,799",
-        description: "Elegant dining set with natural marble table top and wood trestle base. Includes 6 linen side chairs for complete dining solution.",
-        features: [
-            "7-piece complete dining set",
-            "Natural marble table top",
-            "Wood trestle base design",
-            "6 linen upholstered side chairs",
-            "Classic traditional styling",
-            "Seats up to 6 people comfortably"
-        ],
-        specifications: [
-            "Pieces: Table + 6 chairs",
-            "Table Top: Natural marble",
-            "Base: Wood trestle design",
-            "Chairs: Linen upholstery",
-            "Seating: 6 people",
-            "Style: Traditional/Classic"
-        ],
-        link: "https://www.homedepot.com/p/Hanover-Capri-7-Piece-Dining-Set-with-Linen-Side-Chairs-Natural-Marble-Table-Top-and-Wood-Trestle-Base-HDR015-7PC-WHT/324041938"
-    },
     item20: {
         title: "DeLonghi La Specialista Espresso Machine",
         price: "$399",
@@ -459,29 +379,6 @@ const productDetails = {
             "Brand: DeLonghi"
         ],
         link: "https://www.delonghi.com/en/ec9355-m-la-specialista-prestigio-manual-espresso-maker/p/EC9355.M"
-    },
-    item21: {
-        title: "PLAYSEAT Trophy + Logitech G923 Racing System",
-        price: "$449",
-        originalPrice: "$998",
-        description: "Complete racing setup with PLAYSEAT Trophy chair and Logitech G923 racing wheel system. Professional gaming experience.",
-        features: [
-            "PLAYSEAT Trophy racing chair",
-            "Logitech G923 racing wheel",
-            "TrueForce feedback technology",
-            "Compatible with PC and consoles",
-            "Adjustable seating position",
-            "Professional racing experience"
-        ],
-        specifications: [
-            "Chair: PLAYSEAT Trophy Logitech G Edition",
-            "Wheel: Logitech G923 TrueForce",
-            "Compatibility: PC, PlayStation, Xbox",
-            "Feedback: Advanced force feedback",
-            "Adjustability: Multiple positions",
-            "Setup: Complete racing solution"
-        ],
-        link: "https://www.logitechg.com/en-us/products/driving/g923-trueforce-sim-racing-wheel.html?bvstate=pg:6/ct:r&utm_source=Google&utm_medium=Paid-Search&utm_campaign=DEPT_FY25_QX_USA_GA_G_DTX-LogiG-Search-DSA_Google_na&gad_source=1&gad_campaignid=21391472588&gbraid=0AAAAADDQ2OwIINePDoRylqzzug63jr7R4&gclid=Cj0KCQjwlrvBBhDnARIsAHEQgORqXreheXP5oYgBusZey9YxNH2YLDQiA5QGV6XZlokMLQzvO3DAiOQaApKjEALw_wcB"
     },
     item22: {
         title: "Samsung 49\" Odyssey OLED G9 (G95SC) Curved Gaming Monitor",
@@ -608,34 +505,6 @@ const productDetails = {
         ],
         link: "#"
     },
-    item27: {
-        title: "BlueVua ROPOT Countertop Reverse Osmosis System",
-        price: "$59",
-        originalPrice: "$454",
-        description: "Premium countertop water purification system with 5-stage reverse osmosis filtration. Features glass carafe, smart LED display, and no installation required.",
-        features: [
-            "5-stage RO filtration removes 99.99% of contaminants",
-            "0.0001μm RO membrane blocks bacteria, viruses, heavy metals",
-            "Premium borosilicate glass carafe (no plastic)",
-            "Smart LED display shows filter life and water quality",
-            "2:1 pure to drain ratio saves water",
-            "100 GPD production capacity",
-            "Plug-and-play design, no plumbing required",
-            "Auto power-saving standby mode",
-            "Real-time TDS monitoring"
-        ],
-        specifications: [
-            "Flow Rate: 0.26L/min (4 gallons/hour)",
-            "Carafe Capacity: 40 oz (1.2L) glass container",
-            "Daily Production: 100 gallons pure water",
-            "Water Efficiency: 2:1 pure to waste ratio",
-            "Filter Life: 12-24 months",
-            "Filtration: PP, CTO, RO, PCF stages",
-            "Contaminants Removed: Chlorine, lead, fluoride, arsenic, 99.99%",
-            "Certifications: NSF/ANSI 58, NSF/ANSI 372"
-        ],
-        link: "https://bluevua.com/"
-    },
     item28: {
         title: "Ninja Professional Blender with 72oz Pitcher",
         price: "$39",
@@ -717,88 +586,6 @@ const productDetails = {
             "Condition: Like new, barely used"
         ],
         link: "https://www.amazon.com/Anova-Culinary-AN525-US00-Precision-Cooker/dp/B0BQ9F56WV"
-    },
-    item31: {
-        title: "Mac Sports Heavy Duty Camp Chairs (Set of 2)",
-        price: "$59",
-        originalPrice: "$236",
-        description: "Two heavy-duty aluminum camp chairs with 375 lb capacity each. Features comfortable stretch-tight fabric, cup holders, and compact folding design.",
-        features: [
-            "Set of 2 heavy-duty camp chairs",
-            "375 lb weight capacity per chair",
-            "Durable aluminum frame construction",
-            "Stretch-tight fabric for comfort",
-            "Locking frame mechanism for safety",
-            "2 convenient cup holders per chair",
-            "Compact folding design",
-            "Lightweight at 12.87 lbs per chair"
-        ],
-        specifications: [
-            "Capacity: 375 lbs per chair",
-            "Open Size: 27.56\" W x 26.77\" D",
-            "Folded Size: 7.87\" W x 45.28\" H x 11.61\" D",
-            "Weight: 12.87 lbs per chair",
-            "Frame: Heavy-duty aluminum",
-            "Fabric: Stretch-tight material",
-            "Color: Black",
-            "Includes: 2 complete chairs"
-        ],
-        link: "https://www.walmart.com/ip/Mac-Sports-Heavy-Duty-Camp-Chair/5494358715"
-    },
-    item32: {
-        title: "COHO 24-Quart Injection Molded Cooler",
-        price: "$39",
-        originalPrice: "$114",
-        description: "Lightweight injection-molded cooler with foam-filled body and lid. Holds up to 32 cans with excellent ice retention for up to 7 days.",
-        features: [
-            "24-quart capacity holds up to 32 cans",
-            "Foam-filled injection molded construction",
-            "30% lighter than roto-molded coolers",
-            "Up to 7-day ice retention",
-            "Stainless steel bottle opener",
-            "Comfort grip carry handle",
-            "Built-in fish ruler on lid",
-            "Double drain plug system",
-            "Padlock-compatible for security"
-        ],
-        specifications: [
-            "Capacity: 24 quarts (32 cans)",
-            "Dimensions: 18.9\" W x 15.5\" L x 17.2\" H",
-            "Material: Polypropylene with foam insulation",
-            "Weight: 30% lighter than roto-molded",
-            "Ice Retention: Up to 7 days",
-            "Color: White/Gray",
-            "Features: Bottle opener, fish ruler, drains",
-            "Condition: Like new"
-        ],
-        link: "https://www.walmart.com/ip/COHO-24-quart-Injection-Molded-Cooler/5625009582"
-    },
-    item33: {
-        title: "Mac Sports XL Folding Wagon with Brakes",
-        price: "$39",
-        originalPrice: "$140",
-        description: "Heavy-duty folding wagon with 350 lb capacity, all-terrain wheels, and braking system. Back unzips for longer cargo transport.",
-        features: [
-            "350 lb maximum load capacity",
-            "All-terrain wheels for any surface",
-            "Built-in braking system",
-            "Back panel unzips for longer cargo",
-            "Easy-fold steel frame",
-            "No assembly required",
-            "Inside zipper pocket for storage",
-            "Lightweight at 24.8 lbs"
-        ],
-        specifications: [
-            "Capacity: 350 lbs (159 kg)",
-            "Open Size: 38.6\" x 21.7\" x 25.4\"",
-            "Folded Size: 21.7\" x 7.9\" x 32.1\"",
-            "Weight: 24.8 lbs (11.25 kg)",
-            "Frame: Heavy-duty steel",
-            "Wheels: All-terrain with brakes",
-            "Special Feature: Expandable back panel",
-            "Color: Black/Navy Blue"
-        ],
-        link: "https://www.walmart.com/ip/Mac-Sports-XL-Folding-Wagon-with-Brakes-Maximum-Load-350-lb-All-terrain-Wheels-Back-Unzips-for-Longer-Cargo/5440153203"
     },
     item34: {
         title: "Rowenta Iron Steam Station with Ironing Board",
@@ -882,33 +669,6 @@ const productDetails = {
             "Materials: Non-stick aluminum, stainless steel, ceramic"
         ],
         link: "#"
-    },
-    item37: {
-        title: "Dyson Purifier Humidify+Cool PH03",
-        price: "$199",
-        originalPrice: "$699",
-        description: "Advanced 3-in-1 air treatment system that purifies, humidifies, and cools. HEPA filtration captures 99.97% of particles and removes gases and odors.",
-        features: [
-            "3-in-1 functionality: purifies, humidifies, and cools",
-            "HEPA H13 filter captures 99.97% of particles as small as 0.3 microns",
-            "Activated carbon filter removes gases and odors",
-            "Ultraviolet Cleanse technology kills 99.9% of bacteria in water",
-            "Air Multiplier technology for whole room circulation",
-            "Real-time air quality monitoring and display",
-            "Quiet operation with night mode",
-            "WiFi enabled with Dyson Link app control"
-        ],
-        specifications: [
-            "Coverage: Up to 400 sq ft",
-            "Tank Capacity: 1 gallon",
-            "Humidification: Up to 36 hours continuous",
-            "Filtration: HEPA H13 + Activated Carbon",
-            "Airflow: 350° oscillation",
-            "Dimensions: 36.3\" H x 12.2\" W",
-            "Weight: 19.4 lbs",
-            "Color: White/Silver"
-        ],
-        link: "https://www.dyson.com/air-treatment/air-purifier-humidifiers/purifier-humidify-cool-ph03"
     },
     item38: {
         title: "Entryway Shoe Storage Cabinet with Flip Doors - 2-Tier",
@@ -1070,54 +830,6 @@ function updateModalContent(productId) {
                 "Rama łóżka: Tapicerowane zagłówek",
                 "Izolacja ruchu: Doskonała"
             ]
-        }
-    },
-    item6: {
-        hu: {
-            title: "LG C1 65\" Class 4K Smart OLED TV AI ThinQ®-val",
-            description: "Prémium 65 hüvelykes OLED TV lenyűgöző képminőséggel, tökéletes feketékkel és okos funkciókkal. Ideális játékhoz és szórakoztatáshoz.",
-            features: [
-                "Önvilágító OLED pixelek a tökéletes feketékért",
-                "α9 Gen4 AI processzor 4K",
-                "Dolby Vision IQ és Dolby Atmos",
-                "HDMI 2.1 mind a 4 porton (4K@120Hz)",
-                "VRR, G-SYNC kompatibilitás, 1ms válaszidő",
-                "webOS okos platform ThinQ AI-val",
-                "Beépített Google Assistant és Alexa",
-                "FILMMAKER MODE™ támogatás"
-            ],
-            specifications: [
-                "Képernyő mérete: 64,5 hüvelyk átló",
-                "Felbontás: 3840 x 2160 (4K UHD)",
-                "Kijelző típusa: OLED",
-                "Frissítési gyakoriság: 40Hz - 120Hz",
-                "Látószög: 178° vízszintes/függőleges",
-                "Játék funkciók: 1ms válaszidő, VRR",
-                "Csatlakozás: 4x HDMI 2.1, Ethernet, Wi-Fi"
-            ],
-        },
-        pl: {
-            title: "LG C1 65\" Class 4K Smart OLED TV z AI ThinQ®",
-            description: "Premium 65-calowy telewizor OLED z oszałamiającą jakością obrazu, idealnymi czerniami i funkcjami smart. Idealny do gier i rozrywki.",
-            features: [
-                "Samoświecące piksele OLED dla idealnych czerni",
-                "Procesor α9 Gen4 AI 4K",
-                "Dolby Vision IQ i Dolby Atmos",
-                "HDMI 2.1 na wszystkich 4 portach (4K@120Hz)",
-                "VRR, kompatybilność G-SYNC, czas reakcji 1ms",
-                "Platforma webOS smart z ThinQ AI",
-                "Wbudowany Google Assistant i Alexa",
-                "Wsparcie FILMMAKER MODE™"
-            ],
-            specifications: [
-                "Rozmiar ekranu: 64,5 cala przekątna",
-                "Rozdzielczość: 3840 x 2160 (4K UHD)",
-                "Typ wyświetlacza: OLED",
-                "Częstotliwość odświeżania: 40Hz - 120Hz",
-                "Kąty widzenia: 178° poziomo/pionowo",
-                "Funkcje gamingowe: czas reakcji 1ms, VRR",
-                "Łączność: 4x HDMI 2.1, Ethernet, Wi-Fi"
-            ],
         }
     },
     item2: {
@@ -1317,48 +1029,6 @@ function updateModalContent(productId) {
                 "Wykończenie: Imitacja drewna",
                 "Styl: Tradycyjny"
             ]
-        }
-    },
-    item8: {
-        hu: {
-            title: "Denny szövet elektromos dönthető 4 részes szekcionált kanapé",
-            description: "Luxus elektromos dönthető szekcionált kanapé hamuszürke színben. Elektromos fejtámlákkal, USB töltőportokkal és prémium szövet kárpitozással.",
-            features: [
-                "4 részes szekcionált konfiguráció",
-                "Elektromos döntési mechanizmus",
-                "Elektromosan állítható fejtámlák",
-                "Beépített USB töltőportok",
-                "Prémium hamuszürke szövet",
-                "Memóriahab párnázás",
-                "Nulla fal távolság döntés"
-            ],
-            specifications: [
-                "Konfiguráció: 4 részes szekcionált",
-                "Kárpitozás: Prémium szövet",
-                "Szín: Hamuszürke",
-                "Elektromos funkciók: Döntés és fejtámlák",
-                "Töltés: USB portok mellékelve",
-                "Keret: Keményfa konstrukció"
-            ],
-        },
-        pl: {
-            title: "Denny tkaninowa 4-częściowa narożnik z elektrycznym rozkładaniem",
-            description: "Luksusowa narożnik z elektrycznym rozkładaniem w kolorze popielatoszarym. Posiada elektryczne zagłówki, porty ładowania USB i premium tapicerkę tkaninową.",
-            features: [
-                "4-częściowa konfiguracja narożnika",
-                "Mechanizm elektrycznego rozkładania",
-                "Elektrycznie regulowane zagłówki",
-                "Premium popielatoszara tkanina",
-                "Poduszki z pianki pamięciowej",
-                "Rozkładanie bez odstępu od ściany"
-            ],
-            specifications: [
-                "Konfiguracja: 4-częściowy narożnik",
-                "Tapicerka: Premium tkanina",
-                "Kolor: Popielatoszary",
-                "Funkcje elektryczne: Rozkładanie i zagłówki",
-                "Rama: Konstrukcja z twardego drewna"
-            ],
         }
     },
     item9: {
@@ -1648,48 +1318,6 @@ function updateModalContent(productId) {
                 "Ruszty: Zupełnie nowe w zestawie",
                 "Temperatura: Precyzyjna kontrola cyfrowa",
                 "Obszar gotowania: Duża pojemność"
-            ],
-        }
-    },
-    item19: {
-        hu: {
-            title: "Capri 7 részes étkező garnitúra",
-            description: "Elegáns étkező garnitúra természetes márvány asztallal és fa bakláb alappal. 6 vászon oldalsó széket tartalmaz a teljes étkezési megoldáshoz.",
-            features: [
-                "7 részes komplett étkező garnitúra",
-                "Természetes márvány asztallap",
-                "Fa bakláb alap dizájn",
-                "6 vászon kárpitozott oldalsó szék",
-                "Klasszikus hagyományos stílus",
-                "Kényelmesen elfér 6 személy"
-            ],
-            specifications: [
-                "Darabok: Asztal + 6 szék",
-                "Asztallap: Természetes márvány",
-                "Alap: Fa bakláb dizájn",
-                "Székek: Vászon kárpitozás",
-                "Ülőhelyek: 6 személy",
-                "Stílus: Hagyományos/Klasszikus"
-            ],
-        },
-        pl: {
-            title: "Zestaw jadalny Capri 7-częściowy",
-            description: "Elegancki zestaw jadalny z naturalnym marmurowym blatem i drewnianą podstawą kozłową. Zawiera 6 lnianych krzeseł bocznych dla kompletnego rozwiązania jadalnianego.",
-            features: [
-                "7-częściowy kompletny zestaw jadalny",
-                "Naturalny marmurowy blat stołu",
-                "Drewniana podstawa kozłowa",
-                "6 lnianych tapicerowanych krzeseł bocznych",
-                "Klasyczny tradycyjny styl",
-                "Wygodnie mieści do 6 osób"
-            ],
-            specifications: [
-                "Części: Stół + 6 krzeseł",
-                "Blat stołu: Naturalny marmur",
-                "Podstawa: Drewniana konstrukcja kozłowa",
-                "Krzesła: Tapicerka lniana",
-                "Miejsca siedzące: 6 osób",
-                "Styl: Tradycyjny/Klasyczny"
             ],
         }
     },
